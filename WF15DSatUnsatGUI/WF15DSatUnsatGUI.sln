@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowComLib", "FlowComLib\FlowComLib.csproj", "{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowModelLib", "FlowModelLib\FlowModelLib.csproj", "{6C316F7B-0545-4025-B352-D3A425390308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI15DSatUnsat", "GUI15DSatUnsat\GUI15DSatUnsat.csproj", "{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C316F7B-0545-4025-B352-D3A425390308} = {6C316F7B-0545-4025-B352-D3A425390308}
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64} = {6EE6D5AA-48DE-4242-8025-9642EB0C8D64}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wf1dcomdll", "..\..\WF15DSatUnsat\WF1Dcomdll\wf1dcomdll.vfproj", "{72397639-F386-413C-9B5A-B64F7FD7E15C}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wf1dsatdll", "..\..\WF15DSatUnsat\WF1Dsatdll\wf1dsatdll.vfproj", "{C247C095-3EA8-41E9-B15D-81C1B463B9F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72397639-F386-413C-9B5A-B64F7FD7E15C} = {72397639-F386-413C-9B5A-B64F7FD7E15C}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wf1dunsatdll", "..\..\WF15DSatUnsat\WF1Dunsatdll\wf1dunsatdll.vfproj", "{75F43D84-35D0-4591-991E-1CD0AD42B98D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72397639-F386-413C-9B5A-B64F7FD7E15C} = {72397639-F386-413C-9B5A-B64F7FD7E15C}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wf15dsatunsat", "..\..\WF15DSatUnsat\WF15DSatUnsat\wf15dsatunsat.vfproj", "{9E183681-11BE-4C95-8647-F5E1C3E9701B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72397639-F386-413C-9B5A-B64F7FD7E15C} = {72397639-F386-413C-9B5A-B64F7FD7E15C}
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D} = {75F43D84-35D0-4591-991E-1CD0AD42B98D}
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2} = {C247C095-3EA8-41E9-B15D-81C1B463B9F2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphControls", "GraphControls\GraphControls.csproj", "{9EA21573-1C4B-4236-99CE-AD953608E4A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		ReleaseAVX512Parallel|x64 = ReleaseAVX512Parallel|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.Debug|x64.ActiveCfg = Debug|x64
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.Debug|x64.Build.0 = Debug|x64
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.Release|x64.ActiveCfg = Release|x64
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.Release|x64.Build.0 = Release|x64
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{6EE6D5AA-48DE-4242-8025-9642EB0C8D64}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.Debug|x64.ActiveCfg = Debug|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.Debug|x64.Build.0 = Debug|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.Release|x64.ActiveCfg = Release|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.Release|x64.Build.0 = Release|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{6C316F7B-0545-4025-B352-D3A425390308}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.Debug|x64.ActiveCfg = Debug|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.Debug|x64.Build.0 = Debug|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.Release|x64.ActiveCfg = Release|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.Release|x64.Build.0 = Release|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{6FA1CF8F-8AF9-474E-B3A6-E88EC95444E5}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.Debug|x64.ActiveCfg = Release|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.Debug|x64.Build.0 = Release|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.Release|x64.ActiveCfg = Release|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.Release|x64.Build.0 = Release|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{72397639-F386-413C-9B5A-B64F7FD7E15C}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.Debug|x64.ActiveCfg = Release|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.Debug|x64.Build.0 = Release|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.Release|x64.ActiveCfg = Release|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.Release|x64.Build.0 = Release|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{C247C095-3EA8-41E9-B15D-81C1B463B9F2}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.Debug|x64.ActiveCfg = Release|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.Debug|x64.Build.0 = Release|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.Release|x64.ActiveCfg = Release|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.Release|x64.Build.0 = Release|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{75F43D84-35D0-4591-991E-1CD0AD42B98D}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.Debug|x64.ActiveCfg = Release|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.Debug|x64.Build.0 = Release|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.Release|x64.ActiveCfg = Release|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.Release|x64.Build.0 = Release|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.ReleaseAVX512Parallel|x64.ActiveCfg = ReleaseAVX512Parallel|x64
+		{9E183681-11BE-4C95-8647-F5E1C3E9701B}.ReleaseAVX512Parallel|x64.Build.0 = ReleaseAVX512Parallel|x64
+		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.Debug|x64.ActiveCfg = Debug|x64
+		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.Debug|x64.Build.0 = Debug|x64
+		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.Release|x64.ActiveCfg = Release|x64
+		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.ReleaseAVX512Parallel|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {915DFD89-D69F-4F0C-A21E-9CB2D0806E13}
+	EndGlobalSection
+EndGlobal

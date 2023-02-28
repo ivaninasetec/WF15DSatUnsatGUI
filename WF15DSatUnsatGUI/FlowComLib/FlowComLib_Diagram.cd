@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlowComLib.Com_parameters">
+    <Position X="0.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>SBJoVggSKBcAAACHgAAIg4CAKYEIgCWoCoAGKEIgSkI=</HashCode>
+      <FileName>Com_parameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_material">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAiBAAABAgAAAAAAAAAIAAESGEAAEghPgQCIBYAAoI=</HashCode>
+      <FileName>Com_material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_materials">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AFAAEAAAAAAQAAAABAAAAAQAAAAAAAAAAAAAQABAACA=</HashCode>
+      <FileName>Com_materials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_layers">
+    <Position X="7" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IMABAAAABAAAAgQAREBAAkRADAIgCEgAIIhQQCDIEGA=</HashCode>
+      <FileName>Com_layers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_time">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgMAAQICAAEAAABAAAABAAAAARAAAAIQAAgKEAAA=</HashCode>
+      <FileName>Com_time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_boundary">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAACAAABAgAEAQIANEQAACBEIA=</HashCode>
+      <FileName>Com_boundary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_nodes">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CEaqXCkGAAghAiAAFhAgEBYQBBhAAEQIQIJAAQDC6lU=</HashCode>
+      <FileName>Com_nodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_elements">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CECCSAAAAggAAAAAFAAAABQAAIjAEFCIwIBAgADAgkA=</HashCode>
+      <FileName>Com_elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowComLib.Com_calc">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAjEQAEAAAQAACgEQAQgICwAAAAAAAIAAIQAQhQg=</HashCode>
+      <FileName>Com_calc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
