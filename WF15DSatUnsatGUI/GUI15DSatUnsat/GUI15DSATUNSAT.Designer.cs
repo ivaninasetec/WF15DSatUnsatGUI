@@ -102,6 +102,7 @@
             this.toolStripButton_Main_Saveas = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton_Main_Calc = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.treeView_Main = new System.Windows.Forms.TreeView();
             this.tab_Inputs = new System.Windows.Forms.TabControl();
             this.tab_Header = new System.Windows.Forms.TabPage();
@@ -637,12 +638,13 @@
             this.toolStripButton_Main_Save,
             this.toolStripButton_Main_Saveas,
             this.toolStripSeparator1,
-            this.toolStripButton_Main_Calc});
+            this.toolStripButton_Main_Calc,
+            this.toolStripButton1});
             this.toolStrip_Main.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
             this.toolStrip_Main.Location = new System.Drawing.Point(0, 24);
             this.toolStrip_Main.Name = "toolStrip_Main";
             this.toolStrip_Main.Padding = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.toolStrip_Main.Size = new System.Drawing.Size(1054, 47);
+            this.toolStrip_Main.Size = new System.Drawing.Size(1054, 51);
             this.toolStrip_Main.TabIndex = 4;
             this.toolStrip_Main.Text = "toolStrip1";
             // 
@@ -710,13 +712,23 @@
             this.toolStripButton_Main_Calc.Text = "Calculate";
             this.toolStripButton_Main_Calc.Click += new System.EventHandler(this.toolStripButton_Main_Calc_Click);
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::GUI15DSATUNSAT.Properties.Resources.Stop_256x;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(44, 44);
+            this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
             // treeView_Main
             // 
             this.treeView_Main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.treeView_Main.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.treeView_Main.Dock = System.Windows.Forms.DockStyle.Left;
             this.treeView_Main.ForeColor = System.Drawing.SystemColors.Window;
-            this.treeView_Main.Location = new System.Drawing.Point(0, 71);
+            this.treeView_Main.Location = new System.Drawing.Point(0, 75);
             this.treeView_Main.Margin = new System.Windows.Forms.Padding(6);
             this.treeView_Main.Name = "treeView_Main";
             treeNode1.Name = "node_Parameters";
@@ -750,7 +762,7 @@
             treeNode5,
             treeNode6,
             treeNode12});
-            this.treeView_Main.Size = new System.Drawing.Size(200, 588);
+            this.treeView_Main.Size = new System.Drawing.Size(200, 584);
             this.treeView_Main.TabIndex = 0;
             this.treeView_Main.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.TreeView_Main_NodeMouseClick);
             // 
@@ -770,7 +782,7 @@
             this.tab_Inputs.MinimumSize = new System.Drawing.Size(610, 580);
             this.tab_Inputs.Name = "tab_Inputs";
             this.tab_Inputs.SelectedIndex = 0;
-            this.tab_Inputs.Size = new System.Drawing.Size(610, 588);
+            this.tab_Inputs.Size = new System.Drawing.Size(610, 584);
             this.tab_Inputs.TabIndex = 2;
             // 
             // tab_Header
@@ -779,7 +791,7 @@
             this.tab_Header.Location = new System.Drawing.Point(4, 28);
             this.tab_Header.Name = "tab_Header";
             this.tab_Header.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Header.Size = new System.Drawing.Size(602, 556);
+            this.tab_Header.Size = new System.Drawing.Size(602, 552);
             this.tab_Header.TabIndex = 5;
             this.tab_Header.Text = "Title";
             this.tab_Header.UseVisualStyleBackColor = true;
@@ -792,7 +804,7 @@
             this.panel_Header.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Header.Location = new System.Drawing.Point(3, 3);
             this.panel_Header.Name = "panel_Header";
-            this.panel_Header.Size = new System.Drawing.Size(596, 550);
+            this.panel_Header.Size = new System.Drawing.Size(596, 546);
             this.panel_Header.TabIndex = 0;
             // 
             // textBox_Header
@@ -801,7 +813,7 @@
             this.textBox_Header.Location = new System.Drawing.Point(0, 16);
             this.textBox_Header.Multiline = true;
             this.textBox_Header.Name = "textBox_Header";
-            this.textBox_Header.Size = new System.Drawing.Size(596, 534);
+            this.textBox_Header.Size = new System.Drawing.Size(596, 530);
             this.textBox_Header.TabIndex = 1;
             this.textBox_Header.Text = "*********************************************\r\nCALCULATION EXAMPLE\r\n*************" +
     "********************************";
@@ -2048,11 +2060,11 @@
             // 
             this.tab_Mesh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tab_Mesh.Controls.Add(this.splitContainer3);
-            this.tab_Mesh.Location = new System.Drawing.Point(4, 25);
+            this.tab_Mesh.Location = new System.Drawing.Point(4, 28);
             this.tab_Mesh.Margin = new System.Windows.Forms.Padding(6);
             this.tab_Mesh.Name = "tab_Mesh";
             this.tab_Mesh.Padding = new System.Windows.Forms.Padding(6);
-            this.tab_Mesh.Size = new System.Drawing.Size(602, 555);
+            this.tab_Mesh.Size = new System.Drawing.Size(602, 552);
             this.tab_Mesh.TabIndex = 3;
             this.tab_Mesh.Text = "Mesh";
             // 
@@ -2076,7 +2088,7 @@
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer4);
             this.splitContainer3.Panel2MinSize = 50;
-            this.splitContainer3.Size = new System.Drawing.Size(590, 543);
+            this.splitContainer3.Size = new System.Drawing.Size(590, 540);
             this.splitContainer3.SplitterDistance = 40;
             this.splitContainer3.SplitterWidth = 8;
             this.splitContainer3.TabIndex = 7;
@@ -2137,7 +2149,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.groupBox_VerElem);
-            this.splitContainer4.Size = new System.Drawing.Size(590, 495);
+            this.splitContainer4.Size = new System.Drawing.Size(590, 492);
             this.splitContainer4.SplitterDistance = 180;
             this.splitContainer4.SplitterWidth = 8;
             this.splitContainer4.TabIndex = 0;
@@ -2151,7 +2163,7 @@
             this.groupBox_LayerMesh.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox_LayerMesh.Name = "groupBox_LayerMesh";
             this.groupBox_LayerMesh.Padding = new System.Windows.Forms.Padding(6);
-            this.groupBox_LayerMesh.Size = new System.Drawing.Size(180, 495);
+            this.groupBox_LayerMesh.Size = new System.Drawing.Size(180, 492);
             this.groupBox_LayerMesh.TabIndex = 0;
             this.groupBox_LayerMesh.TabStop = false;
             this.groupBox_LayerMesh.Text = "Layers mesh elements";
@@ -2207,7 +2219,7 @@
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_LayerMesh.Size = new System.Drawing.Size(168, 468);
+            this.dataGridView_LayerMesh.Size = new System.Drawing.Size(168, 465);
             this.dataGridView_LayerMesh.TabIndex = 0;
             // 
             // layerMesh_IDlayer
@@ -2305,7 +2317,7 @@
             this.groupBox_VerElem.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox_VerElem.Name = "groupBox_VerElem";
             this.groupBox_VerElem.Padding = new System.Windows.Forms.Padding(6);
-            this.groupBox_VerElem.Size = new System.Drawing.Size(402, 495);
+            this.groupBox_VerElem.Size = new System.Drawing.Size(402, 492);
             this.groupBox_VerElem.TabIndex = 7;
             this.groupBox_VerElem.TabStop = false;
             this.groupBox_VerElem.Text = "Vertical 1DUNSAT submodels";
@@ -2327,7 +2339,7 @@
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.dataGridView_VerticalModules);
-            this.splitContainer5.Size = new System.Drawing.Size(390, 468);
+            this.splitContainer5.Size = new System.Drawing.Size(390, 465);
             this.splitContainer5.SplitterDistance = 30;
             this.splitContainer5.SplitterWidth = 8;
             this.splitContainer5.TabIndex = 6;
@@ -2398,7 +2410,7 @@
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_VerticalModules.Size = new System.Drawing.Size(390, 430);
+            this.dataGridView_VerticalModules.Size = new System.Drawing.Size(390, 427);
             this.dataGridView_VerticalModules.TabIndex = 0;
             this.dataGridView_VerticalModules.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_VerticalModules_CellValueChanged);
             // 
@@ -2540,7 +2552,7 @@
             this.webBrowser_Right.MinimumSize = new System.Drawing.Size(250, 20);
             this.webBrowser_Right.Name = "webBrowser_Right";
             this.webBrowser_Right.ScrollBarsEnabled = false;
-            this.webBrowser_Right.Size = new System.Drawing.Size(250, 588);
+            this.webBrowser_Right.Size = new System.Drawing.Size(250, 584);
             this.webBrowser_Right.TabIndex = 6;
             // 
             // panel_Input
@@ -2550,10 +2562,10 @@
             this.panel_Input.Controls.Add(this.tab_Inputs);
             this.panel_Input.Controls.Add(this.webBrowser_Right);
             this.panel_Input.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Input.Location = new System.Drawing.Point(200, 71);
+            this.panel_Input.Location = new System.Drawing.Point(200, 75);
             this.panel_Input.MinimumSize = new System.Drawing.Size(850, 580);
             this.panel_Input.Name = "panel_Input";
-            this.panel_Input.Size = new System.Drawing.Size(854, 588);
+            this.panel_Input.Size = new System.Drawing.Size(854, 584);
             this.panel_Input.TabIndex = 7;
             // 
             // saveFileDialog_Output
@@ -2564,9 +2576,9 @@
             // 
             this.panel_Calculate.Controls.Add(this.splitContainer_Calculate);
             this.panel_Calculate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Calculate.Location = new System.Drawing.Point(200, 71);
+            this.panel_Calculate.Location = new System.Drawing.Point(200, 75);
             this.panel_Calculate.Name = "panel_Calculate";
-            this.panel_Calculate.Size = new System.Drawing.Size(854, 588);
+            this.panel_Calculate.Size = new System.Drawing.Size(854, 584);
             this.panel_Calculate.TabIndex = 8;
             // 
             // splitContainer_Calculate
@@ -2583,8 +2595,8 @@
             // splitContainer_Calculate.Panel2
             // 
             this.splitContainer_Calculate.Panel2.Controls.Add(this.richTextBoxCalculation);
-            this.splitContainer_Calculate.Size = new System.Drawing.Size(854, 588);
-            this.splitContainer_Calculate.SplitterDistance = 283;
+            this.splitContainer_Calculate.Size = new System.Drawing.Size(854, 584);
+            this.splitContainer_Calculate.SplitterDistance = 281;
             this.splitContainer_Calculate.TabIndex = 1;
             // 
             // scatterXYControl_Calculate_Timestep
@@ -2595,7 +2607,7 @@
             this.scatterXYControl_Calculate_Timestep.LockHorizontalAxis = false;
             this.scatterXYControl_Calculate_Timestep.LockVerticalAxis = false;
             this.scatterXYControl_Calculate_Timestep.Name = "scatterXYControl_Calculate_Timestep";
-            this.scatterXYControl_Calculate_Timestep.Size = new System.Drawing.Size(854, 283);
+            this.scatterXYControl_Calculate_Timestep.Size = new System.Drawing.Size(854, 281);
             this.scatterXYControl_Calculate_Timestep.TabIndex = 0;
             this.scatterXYControl_Calculate_Timestep.Title = "Timestep during calculation over time";
             this.scatterXYControl_Calculate_Timestep.XAxisMax = -9.5D;
@@ -2611,7 +2623,7 @@
             this.richTextBoxCalculation.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxCalculation.Location = new System.Drawing.Point(0, 0);
             this.richTextBoxCalculation.Name = "richTextBoxCalculation";
-            this.richTextBoxCalculation.Size = new System.Drawing.Size(854, 301);
+            this.richTextBoxCalculation.Size = new System.Drawing.Size(854, 299);
             this.richTextBoxCalculation.TabIndex = 0;
             this.richTextBoxCalculation.Text = "";
             // 
@@ -2619,9 +2631,9 @@
             // 
             this.panel_OutputConstraints.Controls.Add(this.tabControl_OutputConstraints);
             this.panel_OutputConstraints.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputConstraints.Location = new System.Drawing.Point(200, 71);
+            this.panel_OutputConstraints.Location = new System.Drawing.Point(200, 75);
             this.panel_OutputConstraints.Name = "panel_OutputConstraints";
-            this.panel_OutputConstraints.Size = new System.Drawing.Size(854, 588);
+            this.panel_OutputConstraints.Size = new System.Drawing.Size(854, 584);
             this.panel_OutputConstraints.TabIndex = 9;
             // 
             // tabControl_OutputConstraints
@@ -2632,7 +2644,7 @@
             this.tabControl_OutputConstraints.Location = new System.Drawing.Point(0, 0);
             this.tabControl_OutputConstraints.Name = "tabControl_OutputConstraints";
             this.tabControl_OutputConstraints.SelectedIndex = 0;
-            this.tabControl_OutputConstraints.Size = new System.Drawing.Size(854, 588);
+            this.tabControl_OutputConstraints.Size = new System.Drawing.Size(854, 584);
             this.tabControl_OutputConstraints.TabIndex = 0;
             // 
             // tab_OutputConstraints_Graph
@@ -2642,7 +2654,7 @@
             this.tab_OutputConstraints_Graph.Location = new System.Drawing.Point(4, 25);
             this.tab_OutputConstraints_Graph.Name = "tab_OutputConstraints_Graph";
             this.tab_OutputConstraints_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_OutputConstraints_Graph.Size = new System.Drawing.Size(846, 559);
+            this.tab_OutputConstraints_Graph.Size = new System.Drawing.Size(846, 555);
             this.tab_OutputConstraints_Graph.TabIndex = 1;
             this.tab_OutputConstraints_Graph.Text = "Graphic";
             this.tab_OutputConstraints_Graph.UseVisualStyleBackColor = true;
@@ -2653,7 +2665,7 @@
             this.panel_OutputConstraints_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_OutputConstraints_Graph.Location = new System.Drawing.Point(3, 3);
             this.panel_OutputConstraints_Graph.Name = "panel_OutputConstraints_Graph";
-            this.panel_OutputConstraints_Graph.Size = new System.Drawing.Size(640, 553);
+            this.panel_OutputConstraints_Graph.Size = new System.Drawing.Size(640, 549);
             this.panel_OutputConstraints_Graph.TabIndex = 0;
             // 
             // scatterXYControl_Constraints
@@ -2663,7 +2675,7 @@
             this.scatterXYControl_Constraints.LockHorizontalAxis = false;
             this.scatterXYControl_Constraints.LockVerticalAxis = false;
             this.scatterXYControl_Constraints.Name = "scatterXYControl_Constraints";
-            this.scatterXYControl_Constraints.Size = new System.Drawing.Size(640, 553);
+            this.scatterXYControl_Constraints.Size = new System.Drawing.Size(640, 549);
             this.scatterXYControl_Constraints.TabIndex = 0;
             this.scatterXYControl_Constraints.Title = "Output at the constraints over time";
             this.scatterXYControl_Constraints.XAxisMax = -9.5D;
@@ -2687,7 +2699,7 @@
             this.panel_OutputConstraints_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_OutputConstraints_GraphOptions.Location = new System.Drawing.Point(643, 3);
             this.panel_OutputConstraints_GraphOptions.Name = "panel_OutputConstraints_GraphOptions";
-            this.panel_OutputConstraints_GraphOptions.Size = new System.Drawing.Size(200, 553);
+            this.panel_OutputConstraints_GraphOptions.Size = new System.Drawing.Size(200, 549);
             this.panel_OutputConstraints_GraphOptions.TabIndex = 1;
             // 
             // button_Constraints_Update
@@ -2950,9 +2962,9 @@
             // 
             this.panel_OutputSatNodes.Controls.Add(this.tabControl_OutputSatNodes);
             this.panel_OutputSatNodes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputSatNodes.Location = new System.Drawing.Point(200, 71);
+            this.panel_OutputSatNodes.Location = new System.Drawing.Point(200, 75);
             this.panel_OutputSatNodes.Name = "panel_OutputSatNodes";
-            this.panel_OutputSatNodes.Size = new System.Drawing.Size(854, 588);
+            this.panel_OutputSatNodes.Size = new System.Drawing.Size(854, 584);
             this.panel_OutputSatNodes.TabIndex = 10;
             // 
             // tabControl_OutputSatNodes
@@ -2963,7 +2975,7 @@
             this.tabControl_OutputSatNodes.Location = new System.Drawing.Point(0, 0);
             this.tabControl_OutputSatNodes.Name = "tabControl_OutputSatNodes";
             this.tabControl_OutputSatNodes.SelectedIndex = 0;
-            this.tabControl_OutputSatNodes.Size = new System.Drawing.Size(854, 588);
+            this.tabControl_OutputSatNodes.Size = new System.Drawing.Size(854, 584);
             this.tabControl_OutputSatNodes.TabIndex = 0;
             // 
             // tabPage_SatNodes_Graph
@@ -2973,7 +2985,7 @@
             this.tabPage_SatNodes_Graph.Location = new System.Drawing.Point(4, 25);
             this.tabPage_SatNodes_Graph.Name = "tabPage_SatNodes_Graph";
             this.tabPage_SatNodes_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_SatNodes_Graph.Size = new System.Drawing.Size(846, 559);
+            this.tabPage_SatNodes_Graph.Size = new System.Drawing.Size(846, 555);
             this.tabPage_SatNodes_Graph.TabIndex = 1;
             this.tabPage_SatNodes_Graph.Text = "Graphic";
             this.tabPage_SatNodes_Graph.UseVisualStyleBackColor = true;
@@ -2984,7 +2996,7 @@
             this.panel_OutputSatNodes_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_OutputSatNodes_Graph.Location = new System.Drawing.Point(3, 3);
             this.panel_OutputSatNodes_Graph.Name = "panel_OutputSatNodes_Graph";
-            this.panel_OutputSatNodes_Graph.Size = new System.Drawing.Size(640, 553);
+            this.panel_OutputSatNodes_Graph.Size = new System.Drawing.Size(640, 549);
             this.panel_OutputSatNodes_Graph.TabIndex = 0;
             // 
             // splitContainer_SatNodes
@@ -3001,8 +3013,8 @@
             // splitContainer_SatNodes.Panel2
             // 
             this.splitContainer_SatNodes.Panel2.Controls.Add(this.scatterXYControl_SatNodes_Others);
-            this.splitContainer_SatNodes.Size = new System.Drawing.Size(640, 553);
-            this.splitContainer_SatNodes.SplitterDistance = 261;
+            this.splitContainer_SatNodes.Size = new System.Drawing.Size(640, 549);
+            this.splitContainer_SatNodes.SplitterDistance = 259;
             this.splitContainer_SatNodes.TabIndex = 1;
             // 
             // scatterXYControl_SatNodes_Layers
@@ -3012,7 +3024,7 @@
             this.scatterXYControl_SatNodes_Layers.LockHorizontalAxis = false;
             this.scatterXYControl_SatNodes_Layers.LockVerticalAxis = false;
             this.scatterXYControl_SatNodes_Layers.Name = "scatterXYControl_SatNodes_Layers";
-            this.scatterXYControl_SatNodes_Layers.Size = new System.Drawing.Size(640, 261);
+            this.scatterXYControl_SatNodes_Layers.Size = new System.Drawing.Size(640, 259);
             this.scatterXYControl_SatNodes_Layers.TabIndex = 0;
             this.scatterXYControl_SatNodes_Layers.Title = "Output: Values at nodes on the 1DSat layer";
             this.scatterXYControl_SatNodes_Layers.XAxisMax = -9.5D;
@@ -3029,7 +3041,7 @@
             this.scatterXYControl_SatNodes_Others.LockHorizontalAxis = false;
             this.scatterXYControl_SatNodes_Others.LockVerticalAxis = false;
             this.scatterXYControl_SatNodes_Others.Name = "scatterXYControl_SatNodes_Others";
-            this.scatterXYControl_SatNodes_Others.Size = new System.Drawing.Size(640, 288);
+            this.scatterXYControl_SatNodes_Others.Size = new System.Drawing.Size(640, 286);
             this.scatterXYControl_SatNodes_Others.TabIndex = 1;
             this.scatterXYControl_SatNodes_Others.Title = "Output: Values at nodes on the 1DSat layer";
             this.scatterXYControl_SatNodes_Others.XAxisMax = -9.5D;
@@ -3053,7 +3065,7 @@
             this.panel_OutputSatNodes_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_OutputSatNodes_GraphOptions.Location = new System.Drawing.Point(643, 3);
             this.panel_OutputSatNodes_GraphOptions.Name = "panel_OutputSatNodes_GraphOptions";
-            this.panel_OutputSatNodes_GraphOptions.Size = new System.Drawing.Size(200, 553);
+            this.panel_OutputSatNodes_GraphOptions.Size = new System.Drawing.Size(200, 549);
             this.panel_OutputSatNodes_GraphOptions.TabIndex = 1;
             // 
             // comboBox_SatNodes_T
@@ -3304,9 +3316,9 @@
             // 
             this.panel_OutputSatElements.Controls.Add(this.tabControl_OutputSatElements);
             this.panel_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputSatElements.Location = new System.Drawing.Point(200, 71);
+            this.panel_OutputSatElements.Location = new System.Drawing.Point(200, 75);
             this.panel_OutputSatElements.Name = "panel_OutputSatElements";
-            this.panel_OutputSatElements.Size = new System.Drawing.Size(854, 588);
+            this.panel_OutputSatElements.Size = new System.Drawing.Size(854, 584);
             this.panel_OutputSatElements.TabIndex = 11;
             // 
             // tabControl_OutputSatElements
@@ -3317,7 +3329,7 @@
             this.tabControl_OutputSatElements.Location = new System.Drawing.Point(0, 0);
             this.tabControl_OutputSatElements.Name = "tabControl_OutputSatElements";
             this.tabControl_OutputSatElements.SelectedIndex = 0;
-            this.tabControl_OutputSatElements.Size = new System.Drawing.Size(854, 588);
+            this.tabControl_OutputSatElements.Size = new System.Drawing.Size(854, 584);
             this.tabControl_OutputSatElements.TabIndex = 0;
             // 
             // tabPage_SatElements_Graph
@@ -3327,7 +3339,7 @@
             this.tabPage_SatElements_Graph.Location = new System.Drawing.Point(4, 25);
             this.tabPage_SatElements_Graph.Name = "tabPage_SatElements_Graph";
             this.tabPage_SatElements_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_SatElements_Graph.Size = new System.Drawing.Size(846, 559);
+            this.tabPage_SatElements_Graph.Size = new System.Drawing.Size(846, 555);
             this.tabPage_SatElements_Graph.TabIndex = 1;
             this.tabPage_SatElements_Graph.Text = "Graphic";
             this.tabPage_SatElements_Graph.UseVisualStyleBackColor = true;
@@ -3338,7 +3350,7 @@
             this.panel_OutputSatElements_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_OutputSatElements_Graph.Location = new System.Drawing.Point(3, 3);
             this.panel_OutputSatElements_Graph.Name = "panel_OutputSatElements_Graph";
-            this.panel_OutputSatElements_Graph.Size = new System.Drawing.Size(640, 553);
+            this.panel_OutputSatElements_Graph.Size = new System.Drawing.Size(640, 549);
             this.panel_OutputSatElements_Graph.TabIndex = 0;
             // 
             // splitContainer_SatElements
@@ -3355,8 +3367,8 @@
             // splitContainer_SatElements.Panel2
             // 
             this.splitContainer_SatElements.Panel2.Controls.Add(this.scatterXYControl_SatElements_Others);
-            this.splitContainer_SatElements.Size = new System.Drawing.Size(640, 553);
-            this.splitContainer_SatElements.SplitterDistance = 261;
+            this.splitContainer_SatElements.Size = new System.Drawing.Size(640, 549);
+            this.splitContainer_SatElements.SplitterDistance = 259;
             this.splitContainer_SatElements.TabIndex = 1;
             // 
             // scatterXYControl_SatElements_Layers
@@ -3366,7 +3378,7 @@
             this.scatterXYControl_SatElements_Layers.LockHorizontalAxis = false;
             this.scatterXYControl_SatElements_Layers.LockVerticalAxis = false;
             this.scatterXYControl_SatElements_Layers.Name = "scatterXYControl_SatElements_Layers";
-            this.scatterXYControl_SatElements_Layers.Size = new System.Drawing.Size(640, 261);
+            this.scatterXYControl_SatElements_Layers.Size = new System.Drawing.Size(640, 259);
             this.scatterXYControl_SatElements_Layers.TabIndex = 0;
             this.scatterXYControl_SatElements_Layers.Title = "Output: Values in Elements on the 1DSat layer";
             this.scatterXYControl_SatElements_Layers.XAxisMax = 2D;
@@ -3383,7 +3395,7 @@
             this.scatterXYControl_SatElements_Others.LockHorizontalAxis = false;
             this.scatterXYControl_SatElements_Others.LockVerticalAxis = false;
             this.scatterXYControl_SatElements_Others.Name = "scatterXYControl_SatElements_Others";
-            this.scatterXYControl_SatElements_Others.Size = new System.Drawing.Size(640, 288);
+            this.scatterXYControl_SatElements_Others.Size = new System.Drawing.Size(640, 286);
             this.scatterXYControl_SatElements_Others.TabIndex = 1;
             this.scatterXYControl_SatElements_Others.Title = "Output: Values in Elements on the 1DSat layer";
             this.scatterXYControl_SatElements_Others.XAxisMax = 2D;
@@ -3407,7 +3419,7 @@
             this.panel_OutputSatElements_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_OutputSatElements_GraphOptions.Location = new System.Drawing.Point(643, 3);
             this.panel_OutputSatElements_GraphOptions.Name = "panel_OutputSatElements_GraphOptions";
-            this.panel_OutputSatElements_GraphOptions.Size = new System.Drawing.Size(200, 553);
+            this.panel_OutputSatElements_GraphOptions.Size = new System.Drawing.Size(200, 549);
             this.panel_OutputSatElements_GraphOptions.TabIndex = 1;
             // 
             // comboBox_SatElements_T
@@ -3660,9 +3672,9 @@
             // 
             this.panel_OutputUnsatNodes.Controls.Add(this.tabControl_OutputUnsatNodes);
             this.panel_OutputUnsatNodes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputUnsatNodes.Location = new System.Drawing.Point(200, 71);
+            this.panel_OutputUnsatNodes.Location = new System.Drawing.Point(200, 75);
             this.panel_OutputUnsatNodes.Name = "panel_OutputUnsatNodes";
-            this.panel_OutputUnsatNodes.Size = new System.Drawing.Size(854, 588);
+            this.panel_OutputUnsatNodes.Size = new System.Drawing.Size(854, 584);
             this.panel_OutputUnsatNodes.TabIndex = 12;
             // 
             // tabControl_OutputUnsatNodes
@@ -3673,7 +3685,7 @@
             this.tabControl_OutputUnsatNodes.Location = new System.Drawing.Point(0, 0);
             this.tabControl_OutputUnsatNodes.Name = "tabControl_OutputUnsatNodes";
             this.tabControl_OutputUnsatNodes.SelectedIndex = 0;
-            this.tabControl_OutputUnsatNodes.Size = new System.Drawing.Size(854, 588);
+            this.tabControl_OutputUnsatNodes.Size = new System.Drawing.Size(854, 584);
             this.tabControl_OutputUnsatNodes.TabIndex = 0;
             // 
             // tabPage_UnsatNodes_Graph
@@ -3683,7 +3695,7 @@
             this.tabPage_UnsatNodes_Graph.Location = new System.Drawing.Point(4, 25);
             this.tabPage_UnsatNodes_Graph.Name = "tabPage_UnsatNodes_Graph";
             this.tabPage_UnsatNodes_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_UnsatNodes_Graph.Size = new System.Drawing.Size(846, 559);
+            this.tabPage_UnsatNodes_Graph.Size = new System.Drawing.Size(846, 555);
             this.tabPage_UnsatNodes_Graph.TabIndex = 1;
             this.tabPage_UnsatNodes_Graph.Text = "Graphic";
             this.tabPage_UnsatNodes_Graph.UseVisualStyleBackColor = true;
@@ -3694,7 +3706,7 @@
             this.panel_OutputUnsatNodes_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_OutputUnsatNodes_Graph.Location = new System.Drawing.Point(3, 3);
             this.panel_OutputUnsatNodes_Graph.Name = "panel_OutputUnsatNodes_Graph";
-            this.panel_OutputUnsatNodes_Graph.Size = new System.Drawing.Size(640, 553);
+            this.panel_OutputUnsatNodes_Graph.Size = new System.Drawing.Size(640, 549);
             this.panel_OutputUnsatNodes_Graph.TabIndex = 0;
             // 
             // scatterXYControl_UnsatNodes
@@ -3704,7 +3716,7 @@
             this.scatterXYControl_UnsatNodes.LockHorizontalAxis = false;
             this.scatterXYControl_UnsatNodes.LockVerticalAxis = false;
             this.scatterXYControl_UnsatNodes.Name = "scatterXYControl_UnsatNodes";
-            this.scatterXYControl_UnsatNodes.Size = new System.Drawing.Size(640, 553);
+            this.scatterXYControl_UnsatNodes.Size = new System.Drawing.Size(640, 549);
             this.scatterXYControl_UnsatNodes.TabIndex = 0;
             this.scatterXYControl_UnsatNodes.Title = "Output: Values at nodes on the 1DUnsat layer";
             this.scatterXYControl_UnsatNodes.XAxisMax = 1D;
@@ -3728,7 +3740,7 @@
             this.panel_OutputUnsatNodes_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_OutputUnsatNodes_GraphOptions.Location = new System.Drawing.Point(643, 3);
             this.panel_OutputUnsatNodes_GraphOptions.Name = "panel_OutputUnsatNodes_GraphOptions";
-            this.panel_OutputUnsatNodes_GraphOptions.Size = new System.Drawing.Size(200, 553);
+            this.panel_OutputUnsatNodes_GraphOptions.Size = new System.Drawing.Size(200, 549);
             this.panel_OutputUnsatNodes_GraphOptions.TabIndex = 1;
             // 
             // comboBox_UnsatNodes_T
@@ -3973,9 +3985,9 @@
             // 
             this.panel_OutputUnsatElements.Controls.Add(this.tabControl_OutputUnsatElements);
             this.panel_OutputUnsatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputUnsatElements.Location = new System.Drawing.Point(200, 71);
+            this.panel_OutputUnsatElements.Location = new System.Drawing.Point(200, 75);
             this.panel_OutputUnsatElements.Name = "panel_OutputUnsatElements";
-            this.panel_OutputUnsatElements.Size = new System.Drawing.Size(854, 588);
+            this.panel_OutputUnsatElements.Size = new System.Drawing.Size(854, 584);
             this.panel_OutputUnsatElements.TabIndex = 13;
             // 
             // tabControl_OutputUnsatElements
@@ -3986,7 +3998,7 @@
             this.tabControl_OutputUnsatElements.Location = new System.Drawing.Point(0, 0);
             this.tabControl_OutputUnsatElements.Name = "tabControl_OutputUnsatElements";
             this.tabControl_OutputUnsatElements.SelectedIndex = 0;
-            this.tabControl_OutputUnsatElements.Size = new System.Drawing.Size(854, 588);
+            this.tabControl_OutputUnsatElements.Size = new System.Drawing.Size(854, 584);
             this.tabControl_OutputUnsatElements.TabIndex = 0;
             // 
             // tabPage_UnsatElements_Graph
@@ -3996,7 +4008,7 @@
             this.tabPage_UnsatElements_Graph.Location = new System.Drawing.Point(4, 25);
             this.tabPage_UnsatElements_Graph.Name = "tabPage_UnsatElements_Graph";
             this.tabPage_UnsatElements_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_UnsatElements_Graph.Size = new System.Drawing.Size(846, 559);
+            this.tabPage_UnsatElements_Graph.Size = new System.Drawing.Size(846, 555);
             this.tabPage_UnsatElements_Graph.TabIndex = 1;
             this.tabPage_UnsatElements_Graph.Text = "Graphic";
             this.tabPage_UnsatElements_Graph.UseVisualStyleBackColor = true;
@@ -4007,7 +4019,7 @@
             this.panel_OutputUnsatElements_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_OutputUnsatElements_Graph.Location = new System.Drawing.Point(3, 3);
             this.panel_OutputUnsatElements_Graph.Name = "panel_OutputUnsatElements_Graph";
-            this.panel_OutputUnsatElements_Graph.Size = new System.Drawing.Size(640, 553);
+            this.panel_OutputUnsatElements_Graph.Size = new System.Drawing.Size(640, 549);
             this.panel_OutputUnsatElements_Graph.TabIndex = 0;
             // 
             // scatterXYControl_UnsatElements
@@ -4017,7 +4029,7 @@
             this.scatterXYControl_UnsatElements.LockHorizontalAxis = false;
             this.scatterXYControl_UnsatElements.LockVerticalAxis = false;
             this.scatterXYControl_UnsatElements.Name = "scatterXYControl_UnsatElements";
-            this.scatterXYControl_UnsatElements.Size = new System.Drawing.Size(640, 553);
+            this.scatterXYControl_UnsatElements.Size = new System.Drawing.Size(640, 549);
             this.scatterXYControl_UnsatElements.TabIndex = 0;
             this.scatterXYControl_UnsatElements.Title = "Output: Values at nodes on the 1DUnsat layer";
             this.scatterXYControl_UnsatElements.XAxisMax = 1D;
@@ -4041,7 +4053,7 @@
             this.panel_OutputUnsatElements_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_OutputUnsatElements_GraphOptions.Location = new System.Drawing.Point(643, 3);
             this.panel_OutputUnsatElements_GraphOptions.Name = "panel_OutputUnsatElements_GraphOptions";
-            this.panel_OutputUnsatElements_GraphOptions.Size = new System.Drawing.Size(200, 553);
+            this.panel_OutputUnsatElements_GraphOptions.Size = new System.Drawing.Size(200, 549);
             this.panel_OutputUnsatElements_GraphOptions.TabIndex = 1;
             // 
             // comboBox_UnsatElements_T
@@ -4296,10 +4308,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1054, 681);
             this.Controls.Add(this.panel_Input);
+            this.Controls.Add(this.panel_OutputSatElements);
             this.Controls.Add(this.panel_Calculate);
             this.Controls.Add(this.panel_OutputConstraints);
             this.Controls.Add(this.panel_OutputSatNodes);
-            this.Controls.Add(this.panel_OutputSatElements);
             this.Controls.Add(this.panel_OutputUnsatNodes);
             this.Controls.Add(this.panel_OutputUnsatElements);
             this.Controls.Add(this.treeView_Main);
@@ -4776,6 +4788,7 @@
         private System.Windows.Forms.Panel panel_Header;
         private System.Windows.Forms.TextBox textBox_Header;
         private System.Windows.Forms.Label label_Title;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }
 

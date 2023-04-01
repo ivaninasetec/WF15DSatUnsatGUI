@@ -166,8 +166,17 @@ namespace FlowModelLib
         public void Stop()
         {
             //File.Delete(FilePath + @"\consoleoutput.txt");
-            this.Calculating = false;
-            OutCalc.Close();
+            try
+            {
+                Process.GetProcessById(OutCalc.Id);
+                OutCalc.Kill();
+                OutCalc.Dispose();
+                this.Calculating = false;
+            }
+            catch
+            {
+                this.Calculating = false;
+            }  
         }
 
 

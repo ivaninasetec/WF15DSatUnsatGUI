@@ -46,6 +46,35 @@ namespace GUI15DSATUNSAT
 
         }
 
+        public MainForm (string[] args)
+        {
+            //Initialize Form
+            InitializeComponent();
+            AllPanelsOff();
+            panel_Input.Visible = true;
+
+            openFileDialog_FileInput.InitialDirectory = Application.StartupPath;
+            Set_Help("", ""); //Clear help textbox and colour backgound.
+
+            //Create Model
+            Model = new Model_ty_model();
+
+            CreateBindings();
+            AssignBindings();
+
+            if (args.Length > 0 )
+            {
+                //FileAttributes attr = File.GetAttributes(args[0]);
+                Model.FileName = System.IO.Path.GetFullPath(args[0]);
+                OpenFile(Model.FileName);
+
+                //if (Path.IsPathRooted(args[0]))
+                //    Model.FileName = System.IO.Path.GetFullPath(args[0]);
+                //else
+                //    MessageBox.Show("Its a file");
+            }
+        }
+
         #endregion
 
 
@@ -208,6 +237,17 @@ namespace GUI15DSATUNSAT
         //}
 
 
+        public void OpenFile( string FileName)
+        {
+            Model.FileName = FileName;
+            Model_ty_inputs.s_model_inputs_header(textBox_Header, Model.FileName);
+            Model_ty_inputs.s_model_inputs_parameters(ref Model, Model.FileName);
+            ChangeTypeSolution(Model.Com_Ty_Parameters.Typesolution);
+            Model_ty_inputs.s_model_inputs_materials(ref Model, Model.FileName);
+            Model_ty_inputs.s_model_inputs_layers(ref Model, Model.FileName);
+            Model_ty_inputs.s_model_inputs_mesh(ref Model, Model.FileName);
+            Model_ty_inputs.s_model_inputs_boundary(ref Model, Model.FileBoundary);
+        }
 
 
 
@@ -228,13 +268,13 @@ namespace GUI15DSATUNSAT
             openFileDialog_FileInput.ShowDialog();
             //folderBrowserDialog_outputs.ShowDialog();
             Model.Initialize();
-            Model_ty_inputs.s_model_inputs_header(textBox_Header, Model.FileName);
-            Model_ty_inputs.s_model_inputs_parameters(ref Model, Model.FileName);
-            ChangeTypeSolution(Model.Com_Ty_Parameters.Typesolution);
-            Model_ty_inputs.s_model_inputs_materials(ref Model, Model.FileName);
-            Model_ty_inputs.s_model_inputs_layers(ref Model, Model.FileName);
-            Model_ty_inputs.s_model_inputs_mesh(ref Model, Model.FileName);
-            Model_ty_inputs.s_model_inputs_boundary(ref Model, Model.FileBoundary);
+            OpenFile(Model.FileName);
+
+
+
+
+
+
             //CreateBindings();
             //AssignBindings();
 
@@ -249,6 +289,32 @@ namespace GUI15DSATUNSAT
 
         private void toolStripButton_Main_Calc_Click(object sender, EventArgs e)
         {
+            
+            scatterXYControl_Calculate_Timestep.Plot.Clear();
+            scatterXYControl_Calculate_Timestep.Plot.ResetLayout();
+
+            scatterXYControl_Constraints.Plot.Clear();
+            scatterXYControl_Constraints.Plot.ResetLayout();
+
+            scatterXYControl_SatElements_Layers.Plot.Clear();
+            scatterXYControl_SatElements_Layers.Plot.ResetLayout();
+
+            scatterXYControl_SatElements_Others.Plot.Clear();
+            scatterXYControl_SatElements_Others.Plot.ResetLayout();
+
+            scatterXYControl_SatNodes_Layers.Plot.Clear();
+            scatterXYControl_SatNodes_Layers.Plot.ResetLayout();
+
+            scatterXYControl_SatNodes_Others.Plot.Clear();
+            scatterXYControl_SatNodes_Others.Plot.ResetLayout();
+
+            scatterXYControl_UnsatElements.Plot.Clear();
+            scatterXYControl_UnsatElements.Plot.ResetLayout();
+
+            scatterXYControl_UnsatNodes.Plot.Clear();
+            scatterXYControl_UnsatNodes.Plot.ResetLayout();
+
+
             if (File.Exists(Model.FilePath+"\\"+Model.FileNameWithoutExtension+ ".outcons.csv"))
             {
                 DialogResult result = MessageBox.Show("There is a previous calculation, do you want to overwrite?", "Confirmation", MessageBoxButtons.YesNo);
@@ -336,7 +402,9 @@ namespace GUI15DSATUNSAT
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            try { Wf15dsatunsatCalculation?.OutCalc.Close(); }
+            try { 
+                Wf15dsatunsatCalculation?.OutCalc.Close(); 
+            }
             catch { }
         }
 
@@ -417,6 +485,10 @@ namespace GUI15DSATUNSAT
             }
         }
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Wf15dsatunsatCalculation.Stop();
+        }
 
     }
 }

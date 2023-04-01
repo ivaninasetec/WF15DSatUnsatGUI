@@ -111,6 +111,16 @@ namespace GUI15DSATUNSAT
             toolStripStatusLabel_CalculationStatus.BackColor = Color.Blue;
             toolStripStatusLabel_CalculationStatus.ForeColor = Color.White;
             toolStripStatusLabel_CalculationStatus.Text = "Calculating...";
+            if (!Wf15dsatunsatCalculation.Calculating)
+            {
+                toolStripStatusLabel_CalculationStatus.BackColor = Color.Red;
+                toolStripStatusLabel_CalculationStatus.ForeColor = Color.White;
+                toolStripStatusLabel_CalculationStatus.Text = "Calculation Stopped";
+                richTextBoxCalculation.SelectionColor = Color.Red;
+                richTextBoxCalculation.AppendText("Calculation Stopped" + Environment.NewLine);
+                timer_CalculationTimestep.Stop();
+            }
+            else { 
             if (Wf15dsatunsatCalculation.OutCalc.HasExited)
             {
                 Wf15dsatunsatCalculation.Calculating = false;
@@ -135,6 +145,7 @@ namespace GUI15DSATUNSAT
 
                 timer_CalculationTimestep.Stop();
             }
+            }
 
             richTextBoxCalculation.ScrollToCaret();
         }
@@ -142,7 +153,13 @@ namespace GUI15DSATUNSAT
         public void Set_Line_Calc(string line)
         {
             //textBox_CalcOutput.Text = textBox_CalcOutput.Text + line + "/r/n
-            if (!(line is null)) if (line!="") { 
+            if (!(line is null)) if (line!="") {
+                    if (richTextBoxCalculation.Lines.Count() > 1000) //To avoid run out of memory
+                    {
+                        //richTextBoxCalculation.Clear(); 
+                        richTextBoxCalculation.Select(0, richTextBoxCalculation.GetFirstCharIndexFromLine(richTextBoxCalculation.Lines.Length - 500));
+                        richTextBoxCalculation.SelectedText = "";
+                    }
                     if (line.Substring(1, 1) == "C") richTextBoxCalculation.SelectionColor = Color.Green;
                     else if (line.Substring(1, 1) == "P") richTextBoxCalculation.SelectionColor = Color.Blue;
                     else richTextBoxCalculation.SelectionColor = Color.Black;

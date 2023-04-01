@@ -113,6 +113,16 @@ namespace GUI15DSATUNSAT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Stop_256x {
+            get {
+                object obj = ResourceManager.GetObject("Stop_256x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap UpdateDatabase_256x {
             get {
                 object obj = ResourceManager.GetObject("UpdateDatabase_256x", resourceCulture);

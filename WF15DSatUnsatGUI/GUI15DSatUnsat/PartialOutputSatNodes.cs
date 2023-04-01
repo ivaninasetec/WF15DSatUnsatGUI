@@ -19,8 +19,8 @@ namespace GUI15DSATUNSAT
         {
             try
             {
-                if (OutputSatNodesList.nfields == 0)
-                {
+                //if (OutputSatNodesList.nfields == 0)
+                //{
                     OutputSatNodesList = new OutputSatNodes(Model.FilePath + @"\" + Model.FileNameWithoutExtension + ".outnods.csv");
                     sourceOutputSatNodes = new BindingSource(OutputSatNodesList.Items, null);
                     bindingNavigator_OutputSatNodes.BindingSource = sourceOutputSatNodes;
@@ -52,14 +52,14 @@ namespace GUI15DSATUNSAT
                     scatterXYControl_SatNodes_Others.Plot.AddHorizontalLine(0.0, color: Color.Black);
                     scatterXYControl_SatNodes_Others.Plot.AddVerticalLine(0.0, color: Color.Black);
 
-                }
-                else
-                {
-                    OutputSatNodesList.Update();
-                    sourceOutputSatNodes = new BindingSource(OutputSatNodesList.Items, null);
-                    bindingNavigator_OutputSatNodes.BindingSource = sourceOutputSatNodes;
-                    dataGridView_OutputSatNodes.DataSource = sourceOutputSatNodes;
-                }
+                //}
+                //else
+                //{
+                //    OutputSatNodesList.Update();
+                //    sourceOutputSatNodes = new BindingSource(OutputSatNodesList.Items, null);
+                //    bindingNavigator_OutputSatNodes.BindingSource = sourceOutputSatNodes;
+                //    dataGridView_OutputSatNodes.DataSource = sourceOutputSatNodes;
+                //}
 
             }
             catch (InvalidCastException exception)

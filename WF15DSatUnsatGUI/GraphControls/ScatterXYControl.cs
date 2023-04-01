@@ -94,14 +94,14 @@ namespace GraphControls
         public double XAxisMin
         {
             get => Plot.GetAxisLimits().XMin;
-            set { xAxisMin = value; Plot.SetAxisLimitsX(value, Plot.GetAxisLimits().XMax); OnPropertyChanged(); }
+            set { xAxisMin = value; Plot.SetAxisLimitsX(value, Math.Max(value+1E-10, Plot.GetAxisLimits().XMax)); OnPropertyChanged(); }
         }
         private double xAxisMax;
         [Description("Maximum value for X Axis"), Category("Data")]
         public double XAxisMax
         {
             get => Plot.GetAxisLimits().XMax;
-            set { xAxisMax = value; Plot.SetAxisLimitsX(Plot.GetAxisLimits().XMin, value); OnPropertyChanged(); }
+            set { xAxisMax = value; Plot.SetAxisLimitsX(Math.Min(value,Plot.GetAxisLimits().XMin), value); OnPropertyChanged(); }
         }
         [Description("Lock X axis"), Category("Data")]
         public bool LockHorizontalAxis

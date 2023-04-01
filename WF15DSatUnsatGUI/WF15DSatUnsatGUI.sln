@@ -34,6 +34,8 @@ Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wf15dsatunsat", "..\..\WF15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphControls", "GraphControls\GraphControls.csproj", "{9EA21573-1C4B-4236-99CE-AD953608E4A5}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WF15DSATUNSAT_Setup", "WF15DSATUNSAT_Setup\WF15DSATUNSAT_Setup.vdproj", "{CABABFA1-7969-40FF-A033-BF57E2E60DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,6 +89,9 @@ Global
 		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.Debug|x64.Build.0 = Debug|x64
 		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.Release|x64.ActiveCfg = Release|x64
 		{9EA21573-1C4B-4236-99CE-AD953608E4A5}.ReleaseAVX512Parallel|x64.ActiveCfg = Release|x64
+		{CABABFA1-7969-40FF-A033-BF57E2E60DC7}.Debug|x64.ActiveCfg = Debug
+		{CABABFA1-7969-40FF-A033-BF57E2E60DC7}.Release|x64.ActiveCfg = Release
+		{CABABFA1-7969-40FF-A033-BF57E2E60DC7}.ReleaseAVX512Parallel|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

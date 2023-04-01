@@ -21,8 +21,8 @@ namespace GUI15DSATUNSAT
         {
             try
             {
-                if (OutputSatElementsList.nfields == 0)
-                {
+                //if (OutputSatElementsList.nfields == 0)
+                //{
                     OutputSatElementsList = new OutputSatElements(Model.FilePath + @"\" + Model.FileNameWithoutExtension + ".outelms.csv");
                     sourceOutputSatElements = new BindingSource(OutputSatElementsList.Items, null);
                     bindingNavigator_OutputSatElements.BindingSource = sourceOutputSatElements;
@@ -54,14 +54,14 @@ namespace GUI15DSATUNSAT
                     scatterXYControl_SatElements_Others.Plot.AddHorizontalLine(0.0, color: Color.Black);
                     scatterXYControl_SatElements_Others.Plot.AddVerticalLine(0.0, color: Color.Black);
 
-                }
-                else
-                {
-                    OutputSatElementsList.Update();
-                    sourceOutputSatElements = new BindingSource(OutputSatElementsList.Items, null);
-                    bindingNavigator_OutputSatElements.BindingSource = sourceOutputSatElements;
-                    dataGridView_OutputSatElements.DataSource = sourceOutputSatElements;
-                }
+                //}
+                //else
+                //{
+                //    OutputSatElementsList.Update();
+                //    sourceOutputSatElements = new BindingSource(OutputSatElementsList.Items, null);
+                //    bindingNavigator_OutputSatElements.BindingSource = sourceOutputSatElements;
+                //    dataGridView_OutputSatElements.DataSource = sourceOutputSatElements;
+                //}
 
             }
             catch (InvalidCastException exception)

@@ -54,7 +54,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>bin\x64\Release\</OutputPath>
+    <OutputPath>..\bin\Release\x64\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
@@ -72,6 +72,12 @@
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>WF15DSatUnsatIco.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GUI15DSATUNSAT.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -182,14 +188,20 @@
       <Name>GraphControls</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PackageReference Include="ScottPlot">
+      <Version>4.1.61</Version>
+    </PackageReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Calculator_256x.png" />
     <Content Include="Resources\NewFile_256x.png" />
     <Content Include="Resources\OpenFolder_256x.png" />
     <Content Include="Resources\SaveAs_256x.png" />
     <Content Include="Resources\Save_256x.png" />
+    <None Include="Resources\Stop_256x.png" />
     <Content Include="Resources\UpdateDatabase_256x.png" />
+    <Content Include="WF15DSatUnsatIco.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
