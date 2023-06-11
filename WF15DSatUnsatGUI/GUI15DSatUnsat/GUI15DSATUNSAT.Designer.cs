@@ -277,6 +277,38 @@
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.panel_OutputSatElements = new System.Windows.Forms.Panel();
+            this.tabControl_OutputSatElements = new System.Windows.Forms.TabControl();
+            this.tabPage_SatElements_Graph = new System.Windows.Forms.TabPage();
+            this.panel_OutputSatElements_Graph = new System.Windows.Forms.Panel();
+            this.splitContainer_SatElements = new System.Windows.Forms.SplitContainer();
+            this.scatterXYControl_SatElements_Layers = new GraphControls.ScatterXYControl();
+            this.scatterXYControl_SatElements_Others = new GraphControls.ScatterXYControl();
+            this.panel_OutputSatElements_GraphOptions = new System.Windows.Forms.Panel();
+            this.comboBox_SatElements_T = new System.Windows.Forms.ComboBox();
+            this.label_SatElements_T = new System.Windows.Forms.Label();
+            this.button_SatElements_Update = new System.Windows.Forms.Button();
+            this.button_SatElements_Clear = new System.Windows.Forms.Button();
+            this.button_SatElements_AddVariable = new System.Windows.Forms.Button();
+            this.comboBox_SatElements_numIS = new System.Windows.Forms.ComboBox();
+            this.label_SatElements_Variable = new System.Windows.Forms.Label();
+            this.comboBox_SatElements_Variable = new System.Windows.Forms.ComboBox();
+            this.label_SatElements_IS = new System.Windows.Forms.Label();
+            this.tabPage_SatElements_Table = new System.Windows.Forms.TabPage();
+            this.dataGridView_OutputSatElements = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn_SatElements_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingNavigator_OutputSatElements = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigator_SatElements_AddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_CountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigator_SatElements_DeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_MoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_MovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_Separator = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigator_SatElements_PositionItem = new System.Windows.Forms.ToolStripTextBox();
+            this.bindingNavigator_SatElements_Separator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bindingNavigator_SatElements_MoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_MoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigator_SatElements_Separator2 = new System.Windows.Forms.ToolStripSeparator();
             this.timer_CalculationTimestep = new System.Windows.Forms.Timer(this.components);
             this.panel_OutputSatNodes = new System.Windows.Forms.Panel();
             this.tabControl_OutputSatNodes = new System.Windows.Forms.TabControl();
@@ -310,38 +342,6 @@
             this.bindingNavigator_SatNodes_MoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigator_SatNodes_MoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigator_SatNodes_Separator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.panel_OutputSatElements = new System.Windows.Forms.Panel();
-            this.tabControl_OutputSatElements = new System.Windows.Forms.TabControl();
-            this.tabPage_SatElements_Graph = new System.Windows.Forms.TabPage();
-            this.panel_OutputSatElements_Graph = new System.Windows.Forms.Panel();
-            this.splitContainer_SatElements = new System.Windows.Forms.SplitContainer();
-            this.scatterXYControl_SatElements_Layers = new GraphControls.ScatterXYControl();
-            this.scatterXYControl_SatElements_Others = new GraphControls.ScatterXYControl();
-            this.panel_OutputSatElements_GraphOptions = new System.Windows.Forms.Panel();
-            this.comboBox_SatElements_T = new System.Windows.Forms.ComboBox();
-            this.label_SatElements_T = new System.Windows.Forms.Label();
-            this.button_SatElements_Update = new System.Windows.Forms.Button();
-            this.button_SatElements_Clear = new System.Windows.Forms.Button();
-            this.button_SatElements_AddVariable = new System.Windows.Forms.Button();
-            this.comboBox_SatElements_numIS = new System.Windows.Forms.ComboBox();
-            this.label_SatElements_Variable = new System.Windows.Forms.Label();
-            this.comboBox_SatElements_Variable = new System.Windows.Forms.ComboBox();
-            this.label_SatElements_IS = new System.Windows.Forms.Label();
-            this.tabPage_SatElements_Table = new System.Windows.Forms.TabPage();
-            this.dataGridView_OutputSatElements = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn_SatElements_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingNavigator_OutputSatElements = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigator_SatElements_AddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_CountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigator_SatElements_DeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_MoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_MovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_Separator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigator_SatElements_PositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigator_SatElements_Separator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigator_SatElements_MoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_MoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigator_SatElements_Separator2 = new System.Windows.Forms.ToolStripSeparator();
             this.panel_OutputUnsatNodes = new System.Windows.Forms.Panel();
             this.tabControl_OutputUnsatNodes = new System.Windows.Forms.TabControl();
             this.tabPage_UnsatNodes_Graph = new System.Windows.Forms.TabPage();
@@ -462,19 +462,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.datagridview_OutputConstraints)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputConstraints)).BeginInit();
             this.bindingNavigator_OutputConstraints.SuspendLayout();
-            this.panel_OutputSatNodes.SuspendLayout();
-            this.tabControl_OutputSatNodes.SuspendLayout();
-            this.tabPage_SatNodes_Graph.SuspendLayout();
-            this.panel_OutputSatNodes_Graph.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer_SatNodes)).BeginInit();
-            this.splitContainer_SatNodes.Panel1.SuspendLayout();
-            this.splitContainer_SatNodes.Panel2.SuspendLayout();
-            this.splitContainer_SatNodes.SuspendLayout();
-            this.panel_OutputSatNodes_GraphOptions.SuspendLayout();
-            this.tabPage_SatNodes_Table.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_OutputSatNodes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatNodes)).BeginInit();
-            this.bindingNavigator_OutputSatNodes.SuspendLayout();
             this.panel_OutputSatElements.SuspendLayout();
             this.tabControl_OutputSatElements.SuspendLayout();
             this.tabPage_SatElements_Graph.SuspendLayout();
@@ -488,6 +475,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_OutputSatElements)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatElements)).BeginInit();
             this.bindingNavigator_OutputSatElements.SuspendLayout();
+            this.panel_OutputSatNodes.SuspendLayout();
+            this.tabControl_OutputSatNodes.SuspendLayout();
+            this.tabPage_SatNodes_Graph.SuspendLayout();
+            this.panel_OutputSatNodes_Graph.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer_SatNodes)).BeginInit();
+            this.splitContainer_SatNodes.Panel1.SuspendLayout();
+            this.splitContainer_SatNodes.Panel2.SuspendLayout();
+            this.splitContainer_SatNodes.SuspendLayout();
+            this.panel_OutputSatNodes_GraphOptions.SuspendLayout();
+            this.tabPage_SatNodes_Table.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_OutputSatNodes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatNodes)).BeginInit();
+            this.bindingNavigator_OutputSatNodes.SuspendLayout();
             this.panel_OutputUnsatNodes.SuspendLayout();
             this.tabControl_OutputUnsatNodes.SuspendLayout();
             this.tabPage_UnsatNodes_Graph.SuspendLayout();
@@ -2060,11 +2060,11 @@
             // 
             this.tab_Mesh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tab_Mesh.Controls.Add(this.splitContainer3);
-            this.tab_Mesh.Location = new System.Drawing.Point(4, 28);
+            this.tab_Mesh.Location = new System.Drawing.Point(4, 25);
             this.tab_Mesh.Margin = new System.Windows.Forms.Padding(6);
             this.tab_Mesh.Name = "tab_Mesh";
             this.tab_Mesh.Padding = new System.Windows.Forms.Padding(6);
-            this.tab_Mesh.Size = new System.Drawing.Size(602, 552);
+            this.tab_Mesh.Size = new System.Drawing.Size(602, 555);
             this.tab_Mesh.TabIndex = 3;
             this.tab_Mesh.Text = "Mesh";
             // 
@@ -2088,7 +2088,7 @@
             // 
             this.splitContainer3.Panel2.Controls.Add(this.splitContainer4);
             this.splitContainer3.Panel2MinSize = 50;
-            this.splitContainer3.Size = new System.Drawing.Size(590, 540);
+            this.splitContainer3.Size = new System.Drawing.Size(590, 543);
             this.splitContainer3.SplitterDistance = 40;
             this.splitContainer3.SplitterWidth = 8;
             this.splitContainer3.TabIndex = 7;
@@ -2149,7 +2149,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.groupBox_VerElem);
-            this.splitContainer4.Size = new System.Drawing.Size(590, 492);
+            this.splitContainer4.Size = new System.Drawing.Size(590, 495);
             this.splitContainer4.SplitterDistance = 180;
             this.splitContainer4.SplitterWidth = 8;
             this.splitContainer4.TabIndex = 0;
@@ -2163,7 +2163,7 @@
             this.groupBox_LayerMesh.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox_LayerMesh.Name = "groupBox_LayerMesh";
             this.groupBox_LayerMesh.Padding = new System.Windows.Forms.Padding(6);
-            this.groupBox_LayerMesh.Size = new System.Drawing.Size(180, 492);
+            this.groupBox_LayerMesh.Size = new System.Drawing.Size(180, 495);
             this.groupBox_LayerMesh.TabIndex = 0;
             this.groupBox_LayerMesh.TabStop = false;
             this.groupBox_LayerMesh.Text = "Layers mesh elements";
@@ -2219,7 +2219,7 @@
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGridView_LayerMesh.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_LayerMesh.Size = new System.Drawing.Size(168, 465);
+            this.dataGridView_LayerMesh.Size = new System.Drawing.Size(168, 468);
             this.dataGridView_LayerMesh.TabIndex = 0;
             // 
             // layerMesh_IDlayer
@@ -2317,7 +2317,7 @@
             this.groupBox_VerElem.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox_VerElem.Name = "groupBox_VerElem";
             this.groupBox_VerElem.Padding = new System.Windows.Forms.Padding(6);
-            this.groupBox_VerElem.Size = new System.Drawing.Size(402, 492);
+            this.groupBox_VerElem.Size = new System.Drawing.Size(402, 495);
             this.groupBox_VerElem.TabIndex = 7;
             this.groupBox_VerElem.TabStop = false;
             this.groupBox_VerElem.Text = "Vertical 1DUNSAT submodels";
@@ -2339,7 +2339,7 @@
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.dataGridView_VerticalModules);
-            this.splitContainer5.Size = new System.Drawing.Size(390, 465);
+            this.splitContainer5.Size = new System.Drawing.Size(390, 468);
             this.splitContainer5.SplitterDistance = 30;
             this.splitContainer5.SplitterWidth = 8;
             this.splitContainer5.TabIndex = 6;
@@ -2356,11 +2356,12 @@
             // 
             // textBox_Nvmod
             // 
+            this.textBox_Nvmod.Enabled = false;
             this.textBox_Nvmod.Location = new System.Drawing.Point(312, 10);
             this.textBox_Nvmod.Margin = new System.Windows.Forms.Padding(6);
             this.textBox_Nvmod.Name = "textBox_Nvmod";
             this.textBox_Nvmod.ReadOnly = true;
-            this.textBox_Nvmod.Size = new System.Drawing.Size(114, 22);
+            this.textBox_Nvmod.Size = new System.Drawing.Size(72, 22);
             this.textBox_Nvmod.TabIndex = 4;
             this.textBox_Nvmod.Text = "1";
             this.textBox_Nvmod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2410,7 +2411,7 @@
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGridView_VerticalModules.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_VerticalModules.Size = new System.Drawing.Size(390, 427);
+            this.dataGridView_VerticalModules.Size = new System.Drawing.Size(390, 430);
             this.dataGridView_VerticalModules.TabIndex = 0;
             this.dataGridView_VerticalModules.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_VerticalModules_CellValueChanged);
             // 
@@ -2547,13 +2548,16 @@
             // 
             // webBrowser_Right
             // 
+            this.webBrowser_Right.AllowWebBrowserDrop = false;
             this.webBrowser_Right.Dock = System.Windows.Forms.DockStyle.Right;
+            this.webBrowser_Right.IsWebBrowserContextMenuEnabled = false;
             this.webBrowser_Right.Location = new System.Drawing.Point(604, 0);
             this.webBrowser_Right.MinimumSize = new System.Drawing.Size(250, 20);
             this.webBrowser_Right.Name = "webBrowser_Right";
             this.webBrowser_Right.ScrollBarsEnabled = false;
             this.webBrowser_Right.Size = new System.Drawing.Size(250, 584);
             this.webBrowser_Right.TabIndex = 6;
+            this.webBrowser_Right.WebBrowserShortcutsEnabled = false;
             // 
             // panel_Input
             // 
@@ -2755,7 +2759,7 @@
             // 
             this.label_Constraints_Variable.AutoSize = true;
             this.label_Constraints_Variable.ForeColor = System.Drawing.Color.Black;
-            this.label_Constraints_Variable.Location = new System.Drawing.Point(4, 130);
+            this.label_Constraints_Variable.Location = new System.Drawing.Point(3, 113);
             this.label_Constraints_Variable.Name = "label_Constraints_Variable";
             this.label_Constraints_Variable.Size = new System.Drawing.Size(109, 16);
             this.label_Constraints_Variable.TabIndex = 5;
@@ -2780,10 +2784,11 @@
             "h_qent_mean",
             "h_incvoldt_mean",
             "h_dqhordx_mean",
-            "h_dqhordx_all_mean"});
-            this.comboBox_Constraints_Variable.Location = new System.Drawing.Point(136, 127);
+            "h_dqhordx_all_mean",
+            "inchnew_mean"});
+            this.comboBox_Constraints_Variable.Location = new System.Drawing.Point(6, 130);
             this.comboBox_Constraints_Variable.Name = "comboBox_Constraints_Variable";
-            this.comboBox_Constraints_Variable.Size = new System.Drawing.Size(57, 24);
+            this.comboBox_Constraints_Variable.Size = new System.Drawing.Size(187, 24);
             this.comboBox_Constraints_Variable.TabIndex = 4;
             // 
             // label_Constraints_IU
@@ -2810,10 +2815,10 @@
             // 
             this.tab_OutputContraints_Table.Controls.Add(this.datagridview_OutputConstraints);
             this.tab_OutputContraints_Table.Controls.Add(this.bindingNavigator_OutputConstraints);
-            this.tab_OutputContraints_Table.Location = new System.Drawing.Point(4, 22);
+            this.tab_OutputContraints_Table.Location = new System.Drawing.Point(4, 25);
             this.tab_OutputContraints_Table.Name = "tab_OutputContraints_Table";
             this.tab_OutputContraints_Table.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_OutputContraints_Table.Size = new System.Drawing.Size(846, 558);
+            this.tab_OutputContraints_Table.Size = new System.Drawing.Size(846, 555);
             this.tab_OutputContraints_Table.TabIndex = 0;
             this.tab_OutputContraints_Table.Text = "Table";
             this.tab_OutputContraints_Table.UseVisualStyleBackColor = true;
@@ -2829,7 +2834,7 @@
             dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
             this.datagridview_OutputConstraints.RowsDefaultCellStyle = dataGridViewCellStyle26;
-            this.datagridview_OutputConstraints.Size = new System.Drawing.Size(840, 527);
+            this.datagridview_OutputConstraints.Size = new System.Drawing.Size(840, 524);
             this.datagridview_OutputConstraints.TabIndex = 1;
             // 
             // Column_Constraints_IDconstraint
@@ -2952,6 +2957,362 @@
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // panel_OutputSatElements
+            // 
+            this.panel_OutputSatElements.Controls.Add(this.tabControl_OutputSatElements);
+            this.panel_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_OutputSatElements.Location = new System.Drawing.Point(200, 75);
+            this.panel_OutputSatElements.Name = "panel_OutputSatElements";
+            this.panel_OutputSatElements.Size = new System.Drawing.Size(854, 584);
+            this.panel_OutputSatElements.TabIndex = 11;
+            // 
+            // tabControl_OutputSatElements
+            // 
+            this.tabControl_OutputSatElements.Controls.Add(this.tabPage_SatElements_Graph);
+            this.tabControl_OutputSatElements.Controls.Add(this.tabPage_SatElements_Table);
+            this.tabControl_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl_OutputSatElements.Location = new System.Drawing.Point(0, 0);
+            this.tabControl_OutputSatElements.Name = "tabControl_OutputSatElements";
+            this.tabControl_OutputSatElements.SelectedIndex = 0;
+            this.tabControl_OutputSatElements.Size = new System.Drawing.Size(854, 584);
+            this.tabControl_OutputSatElements.TabIndex = 0;
+            // 
+            // tabPage_SatElements_Graph
+            // 
+            this.tabPage_SatElements_Graph.Controls.Add(this.panel_OutputSatElements_Graph);
+            this.tabPage_SatElements_Graph.Controls.Add(this.panel_OutputSatElements_GraphOptions);
+            this.tabPage_SatElements_Graph.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_SatElements_Graph.Name = "tabPage_SatElements_Graph";
+            this.tabPage_SatElements_Graph.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_SatElements_Graph.Size = new System.Drawing.Size(846, 555);
+            this.tabPage_SatElements_Graph.TabIndex = 1;
+            this.tabPage_SatElements_Graph.Text = "Graphic";
+            this.tabPage_SatElements_Graph.UseVisualStyleBackColor = true;
+            // 
+            // panel_OutputSatElements_Graph
+            // 
+            this.panel_OutputSatElements_Graph.Controls.Add(this.splitContainer_SatElements);
+            this.panel_OutputSatElements_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_OutputSatElements_Graph.Location = new System.Drawing.Point(3, 3);
+            this.panel_OutputSatElements_Graph.Name = "panel_OutputSatElements_Graph";
+            this.panel_OutputSatElements_Graph.Size = new System.Drawing.Size(640, 549);
+            this.panel_OutputSatElements_Graph.TabIndex = 0;
+            // 
+            // splitContainer_SatElements
+            // 
+            this.splitContainer_SatElements.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer_SatElements.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer_SatElements.Name = "splitContainer_SatElements";
+            this.splitContainer_SatElements.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer_SatElements.Panel1
+            // 
+            this.splitContainer_SatElements.Panel1.Controls.Add(this.scatterXYControl_SatElements_Layers);
+            // 
+            // splitContainer_SatElements.Panel2
+            // 
+            this.splitContainer_SatElements.Panel2.Controls.Add(this.scatterXYControl_SatElements_Others);
+            this.splitContainer_SatElements.Size = new System.Drawing.Size(640, 549);
+            this.splitContainer_SatElements.SplitterDistance = 259;
+            this.splitContainer_SatElements.TabIndex = 1;
+            // 
+            // scatterXYControl_SatElements_Layers
+            // 
+            this.scatterXYControl_SatElements_Layers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scatterXYControl_SatElements_Layers.Location = new System.Drawing.Point(0, 0);
+            this.scatterXYControl_SatElements_Layers.LockHorizontalAxis = false;
+            this.scatterXYControl_SatElements_Layers.LockVerticalAxis = false;
+            this.scatterXYControl_SatElements_Layers.Name = "scatterXYControl_SatElements_Layers";
+            this.scatterXYControl_SatElements_Layers.Size = new System.Drawing.Size(640, 259);
+            this.scatterXYControl_SatElements_Layers.TabIndex = 0;
+            this.scatterXYControl_SatElements_Layers.Title = "Output: Values in Elements on the 1DSat layer";
+            this.scatterXYControl_SatElements_Layers.XAxisMax = 2D;
+            this.scatterXYControl_SatElements_Layers.XAxisMin = 0D;
+            this.scatterXYControl_SatElements_Layers.Xlabel = "X [L]";
+            this.scatterXYControl_SatElements_Layers.YAxisMax = 2D;
+            this.scatterXYControl_SatElements_Layers.YAxisMin = 0D;
+            this.scatterXYControl_SatElements_Layers.Ylabel = "Output";
+            // 
+            // scatterXYControl_SatElements_Others
+            // 
+            this.scatterXYControl_SatElements_Others.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scatterXYControl_SatElements_Others.Location = new System.Drawing.Point(0, 0);
+            this.scatterXYControl_SatElements_Others.LockHorizontalAxis = false;
+            this.scatterXYControl_SatElements_Others.LockVerticalAxis = false;
+            this.scatterXYControl_SatElements_Others.Name = "scatterXYControl_SatElements_Others";
+            this.scatterXYControl_SatElements_Others.Size = new System.Drawing.Size(640, 286);
+            this.scatterXYControl_SatElements_Others.TabIndex = 1;
+            this.scatterXYControl_SatElements_Others.Title = "Output: Values in Elements on the 1DSat layer";
+            this.scatterXYControl_SatElements_Others.XAxisMax = 2D;
+            this.scatterXYControl_SatElements_Others.XAxisMin = 0D;
+            this.scatterXYControl_SatElements_Others.Xlabel = "X [L]";
+            this.scatterXYControl_SatElements_Others.YAxisMax = 2D;
+            this.scatterXYControl_SatElements_Others.YAxisMin = 0D;
+            this.scatterXYControl_SatElements_Others.Ylabel = "Output";
+            // 
+            // panel_OutputSatElements_GraphOptions
+            // 
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_T);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_T);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_Update);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_Clear);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_AddVariable);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_numIS);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_Variable);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_Variable);
+            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_IS);
+            this.panel_OutputSatElements_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel_OutputSatElements_GraphOptions.Location = new System.Drawing.Point(643, 3);
+            this.panel_OutputSatElements_GraphOptions.Name = "panel_OutputSatElements_GraphOptions";
+            this.panel_OutputSatElements_GraphOptions.Size = new System.Drawing.Size(200, 549);
+            this.panel_OutputSatElements_GraphOptions.TabIndex = 1;
+            // 
+            // comboBox_SatElements_T
+            // 
+            this.comboBox_SatElements_T.FormattingEnabled = true;
+            this.comboBox_SatElements_T.Location = new System.Drawing.Point(136, 74);
+            this.comboBox_SatElements_T.Name = "comboBox_SatElements_T";
+            this.comboBox_SatElements_T.Size = new System.Drawing.Size(57, 24);
+            this.comboBox_SatElements_T.TabIndex = 12;
+            // 
+            // label_SatElements_T
+            // 
+            this.label_SatElements_T.AutoSize = true;
+            this.label_SatElements_T.ForeColor = System.Drawing.Color.Black;
+            this.label_SatElements_T.Location = new System.Drawing.Point(3, 77);
+            this.label_SatElements_T.Name = "label_SatElements_T";
+            this.label_SatElements_T.Size = new System.Drawing.Size(61, 16);
+            this.label_SatElements_T.TabIndex = 11;
+            this.label_SatElements_T.Text = "Time (T):";
+            // 
+            // button_SatElements_Update
+            // 
+            this.button_SatElements_Update.BackColor = System.Drawing.Color.Black;
+            this.button_SatElements_Update.Location = new System.Drawing.Point(6, 3);
+            this.button_SatElements_Update.Name = "button_SatElements_Update";
+            this.button_SatElements_Update.Size = new System.Drawing.Size(191, 23);
+            this.button_SatElements_Update.TabIndex = 10;
+            this.button_SatElements_Update.Text = "Update Output";
+            this.button_SatElements_Update.UseVisualStyleBackColor = false;
+            this.button_SatElements_Update.Click += new System.EventHandler(this.button_SatElements_Update_Click);
+            // 
+            // button_SatElements_Clear
+            // 
+            this.button_SatElements_Clear.BackColor = System.Drawing.Color.Black;
+            this.button_SatElements_Clear.Location = new System.Drawing.Point(3, 189);
+            this.button_SatElements_Clear.Name = "button_SatElements_Clear";
+            this.button_SatElements_Clear.Size = new System.Drawing.Size(192, 23);
+            this.button_SatElements_Clear.TabIndex = 9;
+            this.button_SatElements_Clear.Text = "Clear Graph";
+            this.button_SatElements_Clear.UseVisualStyleBackColor = false;
+            this.button_SatElements_Clear.Click += new System.EventHandler(this.button_SatElements_Clear_Click);
+            // 
+            // button_SatElements_AddVariable
+            // 
+            this.button_SatElements_AddVariable.BackColor = System.Drawing.Color.Black;
+            this.button_SatElements_AddVariable.Location = new System.Drawing.Point(3, 158);
+            this.button_SatElements_AddVariable.Name = "button_SatElements_AddVariable";
+            this.button_SatElements_AddVariable.Size = new System.Drawing.Size(192, 23);
+            this.button_SatElements_AddVariable.TabIndex = 8;
+            this.button_SatElements_AddVariable.Text = "Plot Variable";
+            this.button_SatElements_AddVariable.UseVisualStyleBackColor = false;
+            this.button_SatElements_AddVariable.Click += new System.EventHandler(this.button_SatElements_Add_Variable_Click);
+            // 
+            // comboBox_SatElements_numIS
+            // 
+            this.comboBox_SatElements_numIS.FormattingEnabled = true;
+            this.comboBox_SatElements_numIS.Location = new System.Drawing.Point(136, 39);
+            this.comboBox_SatElements_numIS.Name = "comboBox_SatElements_numIS";
+            this.comboBox_SatElements_numIS.Size = new System.Drawing.Size(57, 24);
+            this.comboBox_SatElements_numIS.TabIndex = 6;
+            // 
+            // label_SatElements_Variable
+            // 
+            this.label_SatElements_Variable.AutoSize = true;
+            this.label_SatElements_Variable.ForeColor = System.Drawing.Color.Black;
+            this.label_SatElements_Variable.Location = new System.Drawing.Point(3, 103);
+            this.label_SatElements_Variable.Name = "label_SatElements_Variable";
+            this.label_SatElements_Variable.Size = new System.Drawing.Size(109, 16);
+            this.label_SatElements_Variable.TabIndex = 5;
+            this.label_SatElements_Variable.Text = "Variable to show:";
+            // 
+            // comboBox_SatElements_Variable
+            // 
+            this.comboBox_SatElements_Variable.FormattingEnabled = true;
+            this.comboBox_SatElements_Variable.Items.AddRange(new object[] {
+            "head",
+            "dhdx",
+            "dhzdx",
+            "qent",
+            "incvoldt",
+            "dqhordx",
+            "dqhordx_all",
+            "dqhordx_from_incvoldt",
+            "dqhordx_from_incvoldt_all",
+            "q",
+            "q_all"});
+            this.comboBox_SatElements_Variable.Location = new System.Drawing.Point(6, 127);
+            this.comboBox_SatElements_Variable.Name = "comboBox_SatElements_Variable";
+            this.comboBox_SatElements_Variable.Size = new System.Drawing.Size(187, 24);
+            this.comboBox_SatElements_Variable.TabIndex = 4;
+            // 
+            // label_SatElements_IS
+            // 
+            this.label_SatElements_IS.AutoSize = true;
+            this.label_SatElements_IS.ForeColor = System.Drawing.Color.Black;
+            this.label_SatElements_IS.Location = new System.Drawing.Point(3, 42);
+            this.label_SatElements_IS.Name = "label_SatElements_IS";
+            this.label_SatElements_IS.Size = new System.Drawing.Size(115, 16);
+            this.label_SatElements_IS.TabIndex = 1;
+            this.label_SatElements_IS.Text = "Layer number (IS):";
+            // 
+            // tabPage_SatElements_Table
+            // 
+            this.tabPage_SatElements_Table.Controls.Add(this.dataGridView_OutputSatElements);
+            this.tabPage_SatElements_Table.Controls.Add(this.bindingNavigator_OutputSatElements);
+            this.tabPage_SatElements_Table.Location = new System.Drawing.Point(4, 22);
+            this.tabPage_SatElements_Table.Name = "tabPage_SatElements_Table";
+            this.tabPage_SatElements_Table.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_SatElements_Table.Size = new System.Drawing.Size(846, 558);
+            this.tabPage_SatElements_Table.TabIndex = 0;
+            this.tabPage_SatElements_Table.Text = "Table";
+            this.tabPage_SatElements_Table.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView_OutputSatElements
+            // 
+            this.dataGridView_OutputSatElements.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_OutputSatElements.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn_SatElements_ID});
+            this.dataGridView_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView_OutputSatElements.Location = new System.Drawing.Point(3, 28);
+            this.dataGridView_OutputSatElements.Name = "dataGridView_OutputSatElements";
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView_OutputSatElements.RowsDefaultCellStyle = dataGridViewCellStyle27;
+            this.dataGridView_OutputSatElements.Size = new System.Drawing.Size(840, 527);
+            this.dataGridView_OutputSatElements.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn_SatElements_ID
+            // 
+            this.dataGridViewTextBoxColumn_SatElements_ID.DataPropertyName = "ID";
+            this.dataGridViewTextBoxColumn_SatElements_ID.HeaderText = "IDconstraint";
+            this.dataGridViewTextBoxColumn_SatElements_ID.Name = "dataGridViewTextBoxColumn_SatElements_ID";
+            // 
+            // bindingNavigator_OutputSatElements
+            // 
+            this.bindingNavigator_OutputSatElements.AddNewItem = this.bindingNavigator_SatElements_AddNewItem;
+            this.bindingNavigator_OutputSatElements.CountItem = this.bindingNavigator_SatElements_CountItem;
+            this.bindingNavigator_OutputSatElements.DeleteItem = this.bindingNavigator_SatElements_DeleteItem;
+            this.bindingNavigator_OutputSatElements.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigator_SatElements_MoveFirstItem,
+            this.bindingNavigator_SatElements_MovePreviousItem,
+            this.bindingNavigator_SatElements_Separator,
+            this.bindingNavigator_SatElements_PositionItem,
+            this.bindingNavigator_SatElements_CountItem,
+            this.bindingNavigator_SatElements_Separator1,
+            this.bindingNavigator_SatElements_MoveNextItem,
+            this.bindingNavigator_SatElements_MoveLastItem,
+            this.bindingNavigator_SatElements_Separator2,
+            this.bindingNavigator_SatElements_AddNewItem,
+            this.bindingNavigator_SatElements_DeleteItem});
+            this.bindingNavigator_OutputSatElements.Location = new System.Drawing.Point(3, 3);
+            this.bindingNavigator_OutputSatElements.MoveFirstItem = this.bindingNavigator_SatElements_MoveFirstItem;
+            this.bindingNavigator_OutputSatElements.MoveLastItem = this.bindingNavigator_SatElements_MoveLastItem;
+            this.bindingNavigator_OutputSatElements.MoveNextItem = this.bindingNavigator_SatElements_MoveNextItem;
+            this.bindingNavigator_OutputSatElements.MovePreviousItem = this.bindingNavigator_SatElements_MovePreviousItem;
+            this.bindingNavigator_OutputSatElements.Name = "bindingNavigator_OutputSatElements";
+            this.bindingNavigator_OutputSatElements.PositionItem = this.bindingNavigator_SatElements_PositionItem;
+            this.bindingNavigator_OutputSatElements.Size = new System.Drawing.Size(840, 25);
+            this.bindingNavigator_OutputSatElements.TabIndex = 2;
+            this.bindingNavigator_OutputSatElements.Text = "bindingNavigator1";
+            // 
+            // bindingNavigator_SatElements_AddNewItem
+            // 
+            this.bindingNavigator_SatElements_AddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_AddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_AddNewItem.Image")));
+            this.bindingNavigator_SatElements_AddNewItem.Name = "bindingNavigator_SatElements_AddNewItem";
+            this.bindingNavigator_SatElements_AddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_AddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_AddNewItem.Text = "Add new";
+            // 
+            // bindingNavigator_SatElements_CountItem
+            // 
+            this.bindingNavigator_SatElements_CountItem.ForeColor = System.Drawing.Color.Black;
+            this.bindingNavigator_SatElements_CountItem.Name = "bindingNavigator_SatElements_CountItem";
+            this.bindingNavigator_SatElements_CountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigator_SatElements_CountItem.Text = "of {0}";
+            this.bindingNavigator_SatElements_CountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigator_SatElements_DeleteItem
+            // 
+            this.bindingNavigator_SatElements_DeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_DeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_DeleteItem.Image")));
+            this.bindingNavigator_SatElements_DeleteItem.Name = "bindingNavigator_SatElements_DeleteItem";
+            this.bindingNavigator_SatElements_DeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_DeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_DeleteItem.Text = "Delete";
+            // 
+            // bindingNavigator_SatElements_MoveFirstItem
+            // 
+            this.bindingNavigator_SatElements_MoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_MoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveFirstItem.Image")));
+            this.bindingNavigator_SatElements_MoveFirstItem.Name = "bindingNavigator_SatElements_MoveFirstItem";
+            this.bindingNavigator_SatElements_MoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_MoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_MoveFirstItem.Text = "Move first";
+            // 
+            // bindingNavigator_SatElements_MovePreviousItem
+            // 
+            this.bindingNavigator_SatElements_MovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_MovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MovePreviousItem.Image")));
+            this.bindingNavigator_SatElements_MovePreviousItem.Name = "bindingNavigator_SatElements_MovePreviousItem";
+            this.bindingNavigator_SatElements_MovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_MovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_MovePreviousItem.Text = "Move previous";
+            // 
+            // bindingNavigator_SatElements_Separator
+            // 
+            this.bindingNavigator_SatElements_Separator.Name = "bindingNavigator_SatElements_Separator";
+            this.bindingNavigator_SatElements_Separator.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigator_SatElements_PositionItem
+            // 
+            this.bindingNavigator_SatElements_PositionItem.AccessibleName = "Position";
+            this.bindingNavigator_SatElements_PositionItem.AutoSize = false;
+            this.bindingNavigator_SatElements_PositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bindingNavigator_SatElements_PositionItem.Name = "bindingNavigator_SatElements_PositionItem";
+            this.bindingNavigator_SatElements_PositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigator_SatElements_PositionItem.Text = "0";
+            this.bindingNavigator_SatElements_PositionItem.ToolTipText = "Current position";
+            // 
+            // bindingNavigator_SatElements_Separator1
+            // 
+            this.bindingNavigator_SatElements_Separator1.Name = "bindingNavigator_SatElements_Separator1";
+            this.bindingNavigator_SatElements_Separator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigator_SatElements_MoveNextItem
+            // 
+            this.bindingNavigator_SatElements_MoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_MoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveNextItem.Image")));
+            this.bindingNavigator_SatElements_MoveNextItem.Name = "bindingNavigator_SatElements_MoveNextItem";
+            this.bindingNavigator_SatElements_MoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_MoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_MoveNextItem.Text = "Move next";
+            // 
+            // bindingNavigator_SatElements_MoveLastItem
+            // 
+            this.bindingNavigator_SatElements_MoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigator_SatElements_MoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveLastItem.Image")));
+            this.bindingNavigator_SatElements_MoveLastItem.Name = "bindingNavigator_SatElements_MoveLastItem";
+            this.bindingNavigator_SatElements_MoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigator_SatElements_MoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigator_SatElements_MoveLastItem.Text = "Move last";
+            // 
+            // bindingNavigator_SatElements_Separator2
+            // 
+            this.bindingNavigator_SatElements_Separator2.Name = "bindingNavigator_SatElements_Separator2";
+            this.bindingNavigator_SatElements_Separator2.Size = new System.Drawing.Size(6, 25);
             // 
             // timer_CalculationTimestep
             // 
@@ -3131,7 +3492,7 @@
             // 
             this.label_SatNodes_Variable.AutoSize = true;
             this.label_SatNodes_Variable.ForeColor = System.Drawing.Color.Black;
-            this.label_SatNodes_Variable.Location = new System.Drawing.Point(4, 130);
+            this.label_SatNodes_Variable.Location = new System.Drawing.Point(4, 103);
             this.label_SatNodes_Variable.Name = "label_SatNodes_Variable";
             this.label_SatNodes_Variable.Size = new System.Drawing.Size(109, 16);
             this.label_SatNodes_Variable.TabIndex = 5;
@@ -3150,9 +3511,9 @@
             "qhor_all",
             "dqhordx_all",
             "dqhordx_from_incvol_all"});
-            this.comboBox_SatNodes_Variable.Location = new System.Drawing.Point(136, 127);
+            this.comboBox_SatNodes_Variable.Location = new System.Drawing.Point(7, 127);
             this.comboBox_SatNodes_Variable.Name = "comboBox_SatNodes_Variable";
-            this.comboBox_SatNodes_Variable.Size = new System.Drawing.Size(57, 24);
+            this.comboBox_SatNodes_Variable.Size = new System.Drawing.Size(186, 24);
             this.comboBox_SatNodes_Variable.TabIndex = 4;
             // 
             // label_SatNodes_IS
@@ -3185,9 +3546,9 @@
             this.dataGridView_OutputSatNodes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_OutputSatNodes.Location = new System.Drawing.Point(3, 28);
             this.dataGridView_OutputSatNodes.Name = "dataGridView_OutputSatNodes";
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_OutputSatNodes.RowsDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView_OutputSatNodes.RowsDefaultCellStyle = dataGridViewCellStyle28;
             this.dataGridView_OutputSatNodes.Size = new System.Drawing.Size(840, 527);
             this.dataGridView_OutputSatNodes.TabIndex = 1;
             // 
@@ -3311,362 +3672,6 @@
             // 
             this.bindingNavigator_SatNodes_Separator2.Name = "bindingNavigator_SatNodes_Separator2";
             this.bindingNavigator_SatNodes_Separator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // panel_OutputSatElements
-            // 
-            this.panel_OutputSatElements.Controls.Add(this.tabControl_OutputSatElements);
-            this.panel_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputSatElements.Location = new System.Drawing.Point(200, 75);
-            this.panel_OutputSatElements.Name = "panel_OutputSatElements";
-            this.panel_OutputSatElements.Size = new System.Drawing.Size(854, 584);
-            this.panel_OutputSatElements.TabIndex = 11;
-            // 
-            // tabControl_OutputSatElements
-            // 
-            this.tabControl_OutputSatElements.Controls.Add(this.tabPage_SatElements_Graph);
-            this.tabControl_OutputSatElements.Controls.Add(this.tabPage_SatElements_Table);
-            this.tabControl_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl_OutputSatElements.Location = new System.Drawing.Point(0, 0);
-            this.tabControl_OutputSatElements.Name = "tabControl_OutputSatElements";
-            this.tabControl_OutputSatElements.SelectedIndex = 0;
-            this.tabControl_OutputSatElements.Size = new System.Drawing.Size(854, 584);
-            this.tabControl_OutputSatElements.TabIndex = 0;
-            // 
-            // tabPage_SatElements_Graph
-            // 
-            this.tabPage_SatElements_Graph.Controls.Add(this.panel_OutputSatElements_Graph);
-            this.tabPage_SatElements_Graph.Controls.Add(this.panel_OutputSatElements_GraphOptions);
-            this.tabPage_SatElements_Graph.Location = new System.Drawing.Point(4, 25);
-            this.tabPage_SatElements_Graph.Name = "tabPage_SatElements_Graph";
-            this.tabPage_SatElements_Graph.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_SatElements_Graph.Size = new System.Drawing.Size(846, 555);
-            this.tabPage_SatElements_Graph.TabIndex = 1;
-            this.tabPage_SatElements_Graph.Text = "Graphic";
-            this.tabPage_SatElements_Graph.UseVisualStyleBackColor = true;
-            // 
-            // panel_OutputSatElements_Graph
-            // 
-            this.panel_OutputSatElements_Graph.Controls.Add(this.splitContainer_SatElements);
-            this.panel_OutputSatElements_Graph.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_OutputSatElements_Graph.Location = new System.Drawing.Point(3, 3);
-            this.panel_OutputSatElements_Graph.Name = "panel_OutputSatElements_Graph";
-            this.panel_OutputSatElements_Graph.Size = new System.Drawing.Size(640, 549);
-            this.panel_OutputSatElements_Graph.TabIndex = 0;
-            // 
-            // splitContainer_SatElements
-            // 
-            this.splitContainer_SatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer_SatElements.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer_SatElements.Name = "splitContainer_SatElements";
-            this.splitContainer_SatElements.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer_SatElements.Panel1
-            // 
-            this.splitContainer_SatElements.Panel1.Controls.Add(this.scatterXYControl_SatElements_Layers);
-            // 
-            // splitContainer_SatElements.Panel2
-            // 
-            this.splitContainer_SatElements.Panel2.Controls.Add(this.scatterXYControl_SatElements_Others);
-            this.splitContainer_SatElements.Size = new System.Drawing.Size(640, 549);
-            this.splitContainer_SatElements.SplitterDistance = 259;
-            this.splitContainer_SatElements.TabIndex = 1;
-            // 
-            // scatterXYControl_SatElements_Layers
-            // 
-            this.scatterXYControl_SatElements_Layers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.scatterXYControl_SatElements_Layers.Location = new System.Drawing.Point(0, 0);
-            this.scatterXYControl_SatElements_Layers.LockHorizontalAxis = false;
-            this.scatterXYControl_SatElements_Layers.LockVerticalAxis = false;
-            this.scatterXYControl_SatElements_Layers.Name = "scatterXYControl_SatElements_Layers";
-            this.scatterXYControl_SatElements_Layers.Size = new System.Drawing.Size(640, 259);
-            this.scatterXYControl_SatElements_Layers.TabIndex = 0;
-            this.scatterXYControl_SatElements_Layers.Title = "Output: Values in Elements on the 1DSat layer";
-            this.scatterXYControl_SatElements_Layers.XAxisMax = 2D;
-            this.scatterXYControl_SatElements_Layers.XAxisMin = 0D;
-            this.scatterXYControl_SatElements_Layers.Xlabel = "X [L]";
-            this.scatterXYControl_SatElements_Layers.YAxisMax = 2D;
-            this.scatterXYControl_SatElements_Layers.YAxisMin = 0D;
-            this.scatterXYControl_SatElements_Layers.Ylabel = "Output";
-            // 
-            // scatterXYControl_SatElements_Others
-            // 
-            this.scatterXYControl_SatElements_Others.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.scatterXYControl_SatElements_Others.Location = new System.Drawing.Point(0, 0);
-            this.scatterXYControl_SatElements_Others.LockHorizontalAxis = false;
-            this.scatterXYControl_SatElements_Others.LockVerticalAxis = false;
-            this.scatterXYControl_SatElements_Others.Name = "scatterXYControl_SatElements_Others";
-            this.scatterXYControl_SatElements_Others.Size = new System.Drawing.Size(640, 286);
-            this.scatterXYControl_SatElements_Others.TabIndex = 1;
-            this.scatterXYControl_SatElements_Others.Title = "Output: Values in Elements on the 1DSat layer";
-            this.scatterXYControl_SatElements_Others.XAxisMax = 2D;
-            this.scatterXYControl_SatElements_Others.XAxisMin = 0D;
-            this.scatterXYControl_SatElements_Others.Xlabel = "X [L]";
-            this.scatterXYControl_SatElements_Others.YAxisMax = 2D;
-            this.scatterXYControl_SatElements_Others.YAxisMin = 0D;
-            this.scatterXYControl_SatElements_Others.Ylabel = "Output";
-            // 
-            // panel_OutputSatElements_GraphOptions
-            // 
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_T);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_T);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_Update);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_Clear);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.button_SatElements_AddVariable);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_numIS);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_Variable);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.comboBox_SatElements_Variable);
-            this.panel_OutputSatElements_GraphOptions.Controls.Add(this.label_SatElements_IS);
-            this.panel_OutputSatElements_GraphOptions.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel_OutputSatElements_GraphOptions.Location = new System.Drawing.Point(643, 3);
-            this.panel_OutputSatElements_GraphOptions.Name = "panel_OutputSatElements_GraphOptions";
-            this.panel_OutputSatElements_GraphOptions.Size = new System.Drawing.Size(200, 549);
-            this.panel_OutputSatElements_GraphOptions.TabIndex = 1;
-            // 
-            // comboBox_SatElements_T
-            // 
-            this.comboBox_SatElements_T.FormattingEnabled = true;
-            this.comboBox_SatElements_T.Location = new System.Drawing.Point(136, 74);
-            this.comboBox_SatElements_T.Name = "comboBox_SatElements_T";
-            this.comboBox_SatElements_T.Size = new System.Drawing.Size(57, 24);
-            this.comboBox_SatElements_T.TabIndex = 12;
-            // 
-            // label_SatElements_T
-            // 
-            this.label_SatElements_T.AutoSize = true;
-            this.label_SatElements_T.ForeColor = System.Drawing.Color.Black;
-            this.label_SatElements_T.Location = new System.Drawing.Point(3, 77);
-            this.label_SatElements_T.Name = "label_SatElements_T";
-            this.label_SatElements_T.Size = new System.Drawing.Size(61, 16);
-            this.label_SatElements_T.TabIndex = 11;
-            this.label_SatElements_T.Text = "Time (T):";
-            // 
-            // button_SatElements_Update
-            // 
-            this.button_SatElements_Update.BackColor = System.Drawing.Color.Black;
-            this.button_SatElements_Update.Location = new System.Drawing.Point(6, 3);
-            this.button_SatElements_Update.Name = "button_SatElements_Update";
-            this.button_SatElements_Update.Size = new System.Drawing.Size(191, 23);
-            this.button_SatElements_Update.TabIndex = 10;
-            this.button_SatElements_Update.Text = "Update Output";
-            this.button_SatElements_Update.UseVisualStyleBackColor = false;
-            this.button_SatElements_Update.Click += new System.EventHandler(this.button_SatElements_Update_Click);
-            // 
-            // button_SatElements_Clear
-            // 
-            this.button_SatElements_Clear.BackColor = System.Drawing.Color.Black;
-            this.button_SatElements_Clear.Location = new System.Drawing.Point(3, 189);
-            this.button_SatElements_Clear.Name = "button_SatElements_Clear";
-            this.button_SatElements_Clear.Size = new System.Drawing.Size(192, 23);
-            this.button_SatElements_Clear.TabIndex = 9;
-            this.button_SatElements_Clear.Text = "Clear Graph";
-            this.button_SatElements_Clear.UseVisualStyleBackColor = false;
-            this.button_SatElements_Clear.Click += new System.EventHandler(this.button_SatElements_Clear_Click);
-            // 
-            // button_SatElements_AddVariable
-            // 
-            this.button_SatElements_AddVariable.BackColor = System.Drawing.Color.Black;
-            this.button_SatElements_AddVariable.Location = new System.Drawing.Point(3, 158);
-            this.button_SatElements_AddVariable.Name = "button_SatElements_AddVariable";
-            this.button_SatElements_AddVariable.Size = new System.Drawing.Size(192, 23);
-            this.button_SatElements_AddVariable.TabIndex = 8;
-            this.button_SatElements_AddVariable.Text = "Plot Variable";
-            this.button_SatElements_AddVariable.UseVisualStyleBackColor = false;
-            this.button_SatElements_AddVariable.Click += new System.EventHandler(this.button_SatElements_Add_Variable_Click);
-            // 
-            // comboBox_SatElements_numIS
-            // 
-            this.comboBox_SatElements_numIS.FormattingEnabled = true;
-            this.comboBox_SatElements_numIS.Location = new System.Drawing.Point(136, 39);
-            this.comboBox_SatElements_numIS.Name = "comboBox_SatElements_numIS";
-            this.comboBox_SatElements_numIS.Size = new System.Drawing.Size(57, 24);
-            this.comboBox_SatElements_numIS.TabIndex = 6;
-            // 
-            // label_SatElements_Variable
-            // 
-            this.label_SatElements_Variable.AutoSize = true;
-            this.label_SatElements_Variable.ForeColor = System.Drawing.Color.Black;
-            this.label_SatElements_Variable.Location = new System.Drawing.Point(4, 130);
-            this.label_SatElements_Variable.Name = "label_SatElements_Variable";
-            this.label_SatElements_Variable.Size = new System.Drawing.Size(109, 16);
-            this.label_SatElements_Variable.TabIndex = 5;
-            this.label_SatElements_Variable.Text = "Variable to show:";
-            // 
-            // comboBox_SatElements_Variable
-            // 
-            this.comboBox_SatElements_Variable.FormattingEnabled = true;
-            this.comboBox_SatElements_Variable.Items.AddRange(new object[] {
-            "head",
-            "dhdx",
-            "dhzdx",
-            "qent",
-            "incvoldt",
-            "dqhordx",
-            "dqhordx_all",
-            "dqhordx_from_incvoldt",
-            "dqhordx_from_incvoldt_all",
-            "q",
-            "q_all"});
-            this.comboBox_SatElements_Variable.Location = new System.Drawing.Point(136, 127);
-            this.comboBox_SatElements_Variable.Name = "comboBox_SatElements_Variable";
-            this.comboBox_SatElements_Variable.Size = new System.Drawing.Size(57, 24);
-            this.comboBox_SatElements_Variable.TabIndex = 4;
-            // 
-            // label_SatElements_IS
-            // 
-            this.label_SatElements_IS.AutoSize = true;
-            this.label_SatElements_IS.ForeColor = System.Drawing.Color.Black;
-            this.label_SatElements_IS.Location = new System.Drawing.Point(3, 42);
-            this.label_SatElements_IS.Name = "label_SatElements_IS";
-            this.label_SatElements_IS.Size = new System.Drawing.Size(115, 16);
-            this.label_SatElements_IS.TabIndex = 1;
-            this.label_SatElements_IS.Text = "Layer number (IS):";
-            // 
-            // tabPage_SatElements_Table
-            // 
-            this.tabPage_SatElements_Table.Controls.Add(this.dataGridView_OutputSatElements);
-            this.tabPage_SatElements_Table.Controls.Add(this.bindingNavigator_OutputSatElements);
-            this.tabPage_SatElements_Table.Location = new System.Drawing.Point(4, 22);
-            this.tabPage_SatElements_Table.Name = "tabPage_SatElements_Table";
-            this.tabPage_SatElements_Table.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_SatElements_Table.Size = new System.Drawing.Size(846, 558);
-            this.tabPage_SatElements_Table.TabIndex = 0;
-            this.tabPage_SatElements_Table.Text = "Table";
-            this.tabPage_SatElements_Table.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView_OutputSatElements
-            // 
-            this.dataGridView_OutputSatElements.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_OutputSatElements.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn_SatElements_ID});
-            this.dataGridView_OutputSatElements.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView_OutputSatElements.Location = new System.Drawing.Point(3, 28);
-            this.dataGridView_OutputSatElements.Name = "dataGridView_OutputSatElements";
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView_OutputSatElements.RowsDefaultCellStyle = dataGridViewCellStyle28;
-            this.dataGridView_OutputSatElements.Size = new System.Drawing.Size(840, 527);
-            this.dataGridView_OutputSatElements.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn_SatElements_ID
-            // 
-            this.dataGridViewTextBoxColumn_SatElements_ID.DataPropertyName = "ID";
-            this.dataGridViewTextBoxColumn_SatElements_ID.HeaderText = "IDconstraint";
-            this.dataGridViewTextBoxColumn_SatElements_ID.Name = "dataGridViewTextBoxColumn_SatElements_ID";
-            // 
-            // bindingNavigator_OutputSatElements
-            // 
-            this.bindingNavigator_OutputSatElements.AddNewItem = this.bindingNavigator_SatElements_AddNewItem;
-            this.bindingNavigator_OutputSatElements.CountItem = this.bindingNavigator_SatElements_CountItem;
-            this.bindingNavigator_OutputSatElements.DeleteItem = this.bindingNavigator_SatElements_DeleteItem;
-            this.bindingNavigator_OutputSatElements.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigator_SatElements_MoveFirstItem,
-            this.bindingNavigator_SatElements_MovePreviousItem,
-            this.bindingNavigator_SatElements_Separator,
-            this.bindingNavigator_SatElements_PositionItem,
-            this.bindingNavigator_SatElements_CountItem,
-            this.bindingNavigator_SatElements_Separator1,
-            this.bindingNavigator_SatElements_MoveNextItem,
-            this.bindingNavigator_SatElements_MoveLastItem,
-            this.bindingNavigator_SatElements_Separator2,
-            this.bindingNavigator_SatElements_AddNewItem,
-            this.bindingNavigator_SatElements_DeleteItem});
-            this.bindingNavigator_OutputSatElements.Location = new System.Drawing.Point(3, 3);
-            this.bindingNavigator_OutputSatElements.MoveFirstItem = this.bindingNavigator_SatElements_MoveFirstItem;
-            this.bindingNavigator_OutputSatElements.MoveLastItem = this.bindingNavigator_SatElements_MoveLastItem;
-            this.bindingNavigator_OutputSatElements.MoveNextItem = this.bindingNavigator_SatElements_MoveNextItem;
-            this.bindingNavigator_OutputSatElements.MovePreviousItem = this.bindingNavigator_SatElements_MovePreviousItem;
-            this.bindingNavigator_OutputSatElements.Name = "bindingNavigator_OutputSatElements";
-            this.bindingNavigator_OutputSatElements.PositionItem = this.bindingNavigator_SatElements_PositionItem;
-            this.bindingNavigator_OutputSatElements.Size = new System.Drawing.Size(840, 25);
-            this.bindingNavigator_OutputSatElements.TabIndex = 2;
-            this.bindingNavigator_OutputSatElements.Text = "bindingNavigator1";
-            // 
-            // bindingNavigator_SatElements_AddNewItem
-            // 
-            this.bindingNavigator_SatElements_AddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_AddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_AddNewItem.Image")));
-            this.bindingNavigator_SatElements_AddNewItem.Name = "bindingNavigator_SatElements_AddNewItem";
-            this.bindingNavigator_SatElements_AddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_AddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_AddNewItem.Text = "Add new";
-            // 
-            // bindingNavigator_SatElements_CountItem
-            // 
-            this.bindingNavigator_SatElements_CountItem.ForeColor = System.Drawing.Color.Black;
-            this.bindingNavigator_SatElements_CountItem.Name = "bindingNavigator_SatElements_CountItem";
-            this.bindingNavigator_SatElements_CountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigator_SatElements_CountItem.Text = "of {0}";
-            this.bindingNavigator_SatElements_CountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigator_SatElements_DeleteItem
-            // 
-            this.bindingNavigator_SatElements_DeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_DeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_DeleteItem.Image")));
-            this.bindingNavigator_SatElements_DeleteItem.Name = "bindingNavigator_SatElements_DeleteItem";
-            this.bindingNavigator_SatElements_DeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_DeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_DeleteItem.Text = "Delete";
-            // 
-            // bindingNavigator_SatElements_MoveFirstItem
-            // 
-            this.bindingNavigator_SatElements_MoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_MoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveFirstItem.Image")));
-            this.bindingNavigator_SatElements_MoveFirstItem.Name = "bindingNavigator_SatElements_MoveFirstItem";
-            this.bindingNavigator_SatElements_MoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_MoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_MoveFirstItem.Text = "Move first";
-            // 
-            // bindingNavigator_SatElements_MovePreviousItem
-            // 
-            this.bindingNavigator_SatElements_MovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_MovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MovePreviousItem.Image")));
-            this.bindingNavigator_SatElements_MovePreviousItem.Name = "bindingNavigator_SatElements_MovePreviousItem";
-            this.bindingNavigator_SatElements_MovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_MovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_MovePreviousItem.Text = "Move previous";
-            // 
-            // bindingNavigator_SatElements_Separator
-            // 
-            this.bindingNavigator_SatElements_Separator.Name = "bindingNavigator_SatElements_Separator";
-            this.bindingNavigator_SatElements_Separator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigator_SatElements_PositionItem
-            // 
-            this.bindingNavigator_SatElements_PositionItem.AccessibleName = "Position";
-            this.bindingNavigator_SatElements_PositionItem.AutoSize = false;
-            this.bindingNavigator_SatElements_PositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bindingNavigator_SatElements_PositionItem.Name = "bindingNavigator_SatElements_PositionItem";
-            this.bindingNavigator_SatElements_PositionItem.Size = new System.Drawing.Size(50, 23);
-            this.bindingNavigator_SatElements_PositionItem.Text = "0";
-            this.bindingNavigator_SatElements_PositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigator_SatElements_Separator1
-            // 
-            this.bindingNavigator_SatElements_Separator1.Name = "bindingNavigator_SatElements_Separator1";
-            this.bindingNavigator_SatElements_Separator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigator_SatElements_MoveNextItem
-            // 
-            this.bindingNavigator_SatElements_MoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_MoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveNextItem.Image")));
-            this.bindingNavigator_SatElements_MoveNextItem.Name = "bindingNavigator_SatElements_MoveNextItem";
-            this.bindingNavigator_SatElements_MoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_MoveNextItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_MoveNextItem.Text = "Move next";
-            // 
-            // bindingNavigator_SatElements_MoveLastItem
-            // 
-            this.bindingNavigator_SatElements_MoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigator_SatElements_MoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigator_SatElements_MoveLastItem.Image")));
-            this.bindingNavigator_SatElements_MoveLastItem.Name = "bindingNavigator_SatElements_MoveLastItem";
-            this.bindingNavigator_SatElements_MoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigator_SatElements_MoveLastItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigator_SatElements_MoveLastItem.Text = "Move last";
-            // 
-            // bindingNavigator_SatElements_Separator2
-            // 
-            this.bindingNavigator_SatElements_Separator2.Name = "bindingNavigator_SatElements_Separator2";
-            this.bindingNavigator_SatElements_Separator2.Size = new System.Drawing.Size(6, 25);
             // 
             // panel_OutputUnsatNodes
             // 
@@ -3807,7 +3812,7 @@
             // 
             this.label_UnsatNodes_Variable.AutoSize = true;
             this.label_UnsatNodes_Variable.ForeColor = System.Drawing.Color.Black;
-            this.label_UnsatNodes_Variable.Location = new System.Drawing.Point(4, 130);
+            this.label_UnsatNodes_Variable.Location = new System.Drawing.Point(4, 103);
             this.label_UnsatNodes_Variable.Name = "label_UnsatNodes_Variable";
             this.label_UnsatNodes_Variable.Size = new System.Drawing.Size(109, 16);
             this.label_UnsatNodes_Variable.TabIndex = 5;
@@ -3819,9 +3824,9 @@
             this.comboBox_UnsatNodes_Variable.Items.AddRange(new object[] {
             "Head",
             "Volumentric Water Content"});
-            this.comboBox_UnsatNodes_Variable.Location = new System.Drawing.Point(119, 127);
+            this.comboBox_UnsatNodes_Variable.Location = new System.Drawing.Point(7, 127);
             this.comboBox_UnsatNodes_Variable.Name = "comboBox_UnsatNodes_Variable";
-            this.comboBox_UnsatNodes_Variable.Size = new System.Drawing.Size(74, 24);
+            this.comboBox_UnsatNodes_Variable.Size = new System.Drawing.Size(186, 24);
             this.comboBox_UnsatNodes_Variable.TabIndex = 4;
             // 
             // label_UnsatNodes_IU
@@ -4068,7 +4073,7 @@
             // 
             this.label_UnsatElements_T.AutoSize = true;
             this.label_UnsatElements_T.ForeColor = System.Drawing.Color.Black;
-            this.label_UnsatElements_T.Location = new System.Drawing.Point(3, 77);
+            this.label_UnsatElements_T.Location = new System.Drawing.Point(6, 77);
             this.label_UnsatElements_T.Name = "label_UnsatElements_T";
             this.label_UnsatElements_T.Size = new System.Drawing.Size(61, 16);
             this.label_UnsatElements_T.TabIndex = 11;
@@ -4120,7 +4125,7 @@
             // 
             this.label_UnsatElements_Variable.AutoSize = true;
             this.label_UnsatElements_Variable.ForeColor = System.Drawing.Color.Black;
-            this.label_UnsatElements_Variable.Location = new System.Drawing.Point(4, 130);
+            this.label_UnsatElements_Variable.Location = new System.Drawing.Point(6, 108);
             this.label_UnsatElements_Variable.Name = "label_UnsatElements_Variable";
             this.label_UnsatElements_Variable.Size = new System.Drawing.Size(109, 16);
             this.label_UnsatElements_Variable.TabIndex = 5;
@@ -4139,16 +4144,16 @@
             "k",
             "dhdx",
             "dhxdx"});
-            this.comboBox_UnsatElements_Variable.Location = new System.Drawing.Point(119, 127);
+            this.comboBox_UnsatElements_Variable.Location = new System.Drawing.Point(6, 127);
             this.comboBox_UnsatElements_Variable.Name = "comboBox_UnsatElements_Variable";
-            this.comboBox_UnsatElements_Variable.Size = new System.Drawing.Size(74, 24);
+            this.comboBox_UnsatElements_Variable.Size = new System.Drawing.Size(187, 24);
             this.comboBox_UnsatElements_Variable.TabIndex = 4;
             // 
             // label_UnsatElements_IU
             // 
             this.label_UnsatElements_IU.AutoSize = true;
             this.label_UnsatElements_IU.ForeColor = System.Drawing.Color.Black;
-            this.label_UnsatElements_IU.Location = new System.Drawing.Point(3, 42);
+            this.label_UnsatElements_IU.Location = new System.Drawing.Point(6, 42);
             this.label_UnsatElements_IU.Name = "label_UnsatElements_IU";
             this.label_UnsatElements_IU.Size = new System.Drawing.Size(127, 16);
             this.label_UnsatElements_IU.TabIndex = 1;
@@ -4307,13 +4312,13 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1054, 681);
-            this.Controls.Add(this.panel_Input);
-            this.Controls.Add(this.panel_OutputSatElements);
-            this.Controls.Add(this.panel_Calculate);
             this.Controls.Add(this.panel_OutputConstraints);
-            this.Controls.Add(this.panel_OutputSatNodes);
-            this.Controls.Add(this.panel_OutputUnsatNodes);
+            this.Controls.Add(this.panel_Input);
+            this.Controls.Add(this.panel_Calculate);
+            this.Controls.Add(this.panel_OutputSatElements);
             this.Controls.Add(this.panel_OutputUnsatElements);
+            this.Controls.Add(this.panel_OutputUnsatNodes);
+            this.Controls.Add(this.panel_OutputSatNodes);
             this.Controls.Add(this.treeView_Main);
             this.Controls.Add(this.toolStrip_Main);
             this.Controls.Add(this.statusStrip1);
@@ -4404,22 +4409,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputConstraints)).EndInit();
             this.bindingNavigator_OutputConstraints.ResumeLayout(false);
             this.bindingNavigator_OutputConstraints.PerformLayout();
-            this.panel_OutputSatNodes.ResumeLayout(false);
-            this.tabControl_OutputSatNodes.ResumeLayout(false);
-            this.tabPage_SatNodes_Graph.ResumeLayout(false);
-            this.panel_OutputSatNodes_Graph.ResumeLayout(false);
-            this.splitContainer_SatNodes.Panel1.ResumeLayout(false);
-            this.splitContainer_SatNodes.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer_SatNodes)).EndInit();
-            this.splitContainer_SatNodes.ResumeLayout(false);
-            this.panel_OutputSatNodes_GraphOptions.ResumeLayout(false);
-            this.panel_OutputSatNodes_GraphOptions.PerformLayout();
-            this.tabPage_SatNodes_Table.ResumeLayout(false);
-            this.tabPage_SatNodes_Table.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_OutputSatNodes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatNodes)).EndInit();
-            this.bindingNavigator_OutputSatNodes.ResumeLayout(false);
-            this.bindingNavigator_OutputSatNodes.PerformLayout();
             this.panel_OutputSatElements.ResumeLayout(false);
             this.tabControl_OutputSatElements.ResumeLayout(false);
             this.tabPage_SatElements_Graph.ResumeLayout(false);
@@ -4436,6 +4425,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatElements)).EndInit();
             this.bindingNavigator_OutputSatElements.ResumeLayout(false);
             this.bindingNavigator_OutputSatElements.PerformLayout();
+            this.panel_OutputSatNodes.ResumeLayout(false);
+            this.tabControl_OutputSatNodes.ResumeLayout(false);
+            this.tabPage_SatNodes_Graph.ResumeLayout(false);
+            this.panel_OutputSatNodes_Graph.ResumeLayout(false);
+            this.splitContainer_SatNodes.Panel1.ResumeLayout(false);
+            this.splitContainer_SatNodes.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer_SatNodes)).EndInit();
+            this.splitContainer_SatNodes.ResumeLayout(false);
+            this.panel_OutputSatNodes_GraphOptions.ResumeLayout(false);
+            this.panel_OutputSatNodes_GraphOptions.PerformLayout();
+            this.tabPage_SatNodes_Table.ResumeLayout(false);
+            this.tabPage_SatNodes_Table.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_OutputSatNodes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator_OutputSatNodes)).EndInit();
+            this.bindingNavigator_OutputSatNodes.ResumeLayout(false);
+            this.bindingNavigator_OutputSatNodes.PerformLayout();
             this.panel_OutputUnsatNodes.ResumeLayout(false);
             this.tabControl_OutputUnsatNodes.ResumeLayout(false);
             this.tabPage_UnsatNodes_Graph.ResumeLayout(false);

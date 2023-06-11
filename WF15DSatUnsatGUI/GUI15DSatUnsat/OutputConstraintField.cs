@@ -30,5 +30,6 @@ namespace GUI15DSATUNSAT
         public double h_incvoldt_mean { get; set; }
         public double h_dqhordx_mean { get; set; }
         public double h_dqhordx_all_mean { get; set; }
+        public double inchnew_mean { get; set; }
     }
 }

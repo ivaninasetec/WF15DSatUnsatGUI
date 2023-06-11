@@ -18,12 +18,13 @@ namespace GUI15DSATUNSAT
         /// Datatable with the Outputs at the Ekements in the 1DUnsat modules
         /// </summary>
         public OutputUnsatElements OutputUnsatElementsList = new OutputUnsatElements();
+
         private void button_UnsatElements_Update_Click(object sender, EventArgs e)
         {
             try
             {
-                if (OutputUnsatElementsList.nfields == 0)
-                {
+                //if (OutputUnsatElementsList.nfields == 0)
+                //{
                     OutputUnsatElementsList = new OutputUnsatElements(Model.FilePath + @"\" + Model.FileNameWithoutExtension + ".outelmu.csv");
                     sourceOutputUnsatElements = new BindingSource(OutputUnsatElementsList.Items, null);
                     bindingNavigator_OutputUnsatElements.BindingSource = sourceOutputUnsatElements;
@@ -47,14 +48,14 @@ namespace GUI15DSATUNSAT
                     scatterXYControl_UnsatElements.Plot.AddHorizontalLine(0.0, color: Color.Brown, width: 2);
                     scatterXYControl_UnsatElements.Plot.AddVerticalLine(0.0, color: Color.Black, width: 2);
 
-                }
-                else
-                {
-                    OutputUnsatElementsList.Update();
-                    sourceOutputUnsatElements = new BindingSource(OutputUnsatElementsList.Items, null);
-                    bindingNavigator_OutputUnsatElements.BindingSource = sourceOutputUnsatElements;
-                    dataGridView_OutputUnsatElements.DataSource = sourceOutputUnsatElements;
-                }
+                //}
+                //else
+                //{
+                //    OutputUnsatElementsList.Update();
+                //    sourceOutputUnsatElements = new BindingSource(OutputUnsatElementsList.Items, null);
+                //    bindingNavigator_OutputUnsatElements.BindingSource = sourceOutputUnsatElements;
+                //    dataGridView_OutputUnsatElements.DataSource = sourceOutputUnsatElements;
+                //}
 
             }
             catch (InvalidCastException exception)

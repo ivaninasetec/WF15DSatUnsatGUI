@@ -89,6 +89,7 @@ namespace GUI15DSATUNSAT
                                     scatterXYControl_Calculate_Timestep.LockHorizontalAxis = false;
                                     scatterXYControl_Calculate_Timestep.YAxisMin = 0.0;
                                 }
+
                                 //if (scatterXYControl_Calculate_Timestep.PlotLines.Count == 0) scatterXYControl_Calculate_Timestep.Plot.AddScatterList();
                                 Wf15dsatunsatCalculation.Currenttime = timetemp;
                                 scatterXYControl_Calculate_Timestep.PlotLines[0].Add(timetemp, timesteptemp);

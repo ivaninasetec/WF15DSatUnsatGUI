@@ -116,6 +116,7 @@ namespace GUI15DSATUNSAT
             result.h_incvoldt_mean = Convert.ToDouble(fields[19], Culture);
             result.h_dqhordx_mean = Convert.ToDouble(fields[20], Culture);
             result.h_dqhordx_all_mean = Convert.ToDouble(fields[21], Culture);
+            result.inchnew_mean = Convert.ToDouble(fields[22], Culture);
 
             return result;
 

@@ -28,7 +28,7 @@ namespace GUI15DSATUNSAT
 
 
                     int nlayers = Model.Com_Ty_Layers.Layers.Count;
-                    double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height);
+                    double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height) + Model.Com_Ty_Layers.Slopebottom * Model.Com_Ty_Layers.Width;
 
                     double zbottom = -totalheight;
 
@@ -93,7 +93,7 @@ namespace GUI15DSATUNSAT
             string tvalue = (string)comboBox_SatNodes_T.SelectedItem;
 
             int nlayers = Model.Com_Ty_Layers.Layers.Count;
-            double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height);
+            double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height) + Model.Com_Ty_Layers.Slopebottom * Model.Com_Ty_Layers.Width;
 
             double zbottom = -totalheight + Model.Com_Ty_Layers.Layers.Take(numIS - 1).Sum(x => x.Height);
 
@@ -188,7 +188,7 @@ namespace GUI15DSATUNSAT
         private void button_SatNodes_Clear_Click(object sender, EventArgs e)
         {
             int nlayers = Model.Com_Ty_Layers.Layers.Count;
-            double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height);
+            double totalheight = Model.Com_Ty_Layers.Layers.Sum(x => x.Height) + Model.Com_Ty_Layers.Slopebottom * Model.Com_Ty_Layers.Width;
 
             double zbottom = -totalheight;
 

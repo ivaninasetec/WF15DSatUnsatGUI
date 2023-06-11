@@ -267,8 +267,11 @@ namespace GUI15DSATUNSAT
             openFileDialog_FileInput.FileName = "*.wfsuinp";
             openFileDialog_FileInput.ShowDialog();
             //folderBrowserDialog_outputs.ShowDialog();
+            clearAllScaterXY();
+
             Model.Initialize();
             OpenFile(Model.FileName);
+
 
 
 
@@ -287,32 +290,45 @@ namespace GUI15DSATUNSAT
 
         }
 
-        private void toolStripButton_Main_Calc_Click(object sender, EventArgs e)
+        private void clearAllScaterXY()
         {
-            
+            scatterXYControl_Calculate_Timestep.PlotLines.Clear();
             scatterXYControl_Calculate_Timestep.Plot.Clear();
             scatterXYControl_Calculate_Timestep.Plot.ResetLayout();
 
+            scatterXYControl_Constraints.PlotLines.Clear();
             scatterXYControl_Constraints.Plot.Clear();
             scatterXYControl_Constraints.Plot.ResetLayout();
 
+            scatterXYControl_SatElements_Layers.PlotLines.Clear();
             scatterXYControl_SatElements_Layers.Plot.Clear();
             scatterXYControl_SatElements_Layers.Plot.ResetLayout();
 
+            scatterXYControl_SatElements_Others.PlotLines.Clear();
             scatterXYControl_SatElements_Others.Plot.Clear();
             scatterXYControl_SatElements_Others.Plot.ResetLayout();
 
+            scatterXYControl_SatNodes_Layers.PlotLines.Clear();
             scatterXYControl_SatNodes_Layers.Plot.Clear();
             scatterXYControl_SatNodes_Layers.Plot.ResetLayout();
 
+            scatterXYControl_SatNodes_Others.PlotLines.Clear();
             scatterXYControl_SatNodes_Others.Plot.Clear();
             scatterXYControl_SatNodes_Others.Plot.ResetLayout();
 
+            scatterXYControl_UnsatElements.PlotLines.Clear();
             scatterXYControl_UnsatElements.Plot.Clear();
             scatterXYControl_UnsatElements.Plot.ResetLayout();
 
+            scatterXYControl_UnsatNodes.PlotLines.Clear();
             scatterXYControl_UnsatNodes.Plot.Clear();
             scatterXYControl_UnsatNodes.Plot.ResetLayout();
+        }
+
+        private void toolStripButton_Main_Calc_Click(object sender, EventArgs e)
+        {
+
+            clearAllScaterXY();
 
 
             if (File.Exists(Model.FilePath+"\\"+Model.FileNameWithoutExtension+ ".outcons.csv"))

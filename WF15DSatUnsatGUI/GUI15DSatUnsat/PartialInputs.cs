@@ -501,11 +501,12 @@ namespace GUI15DSATUNSAT
             }
         }
 
-        #region Layers
+        
 
+        #region SetHelp
         private void Set_Help(string title, string help)
         {
-            string htmltext = @"<html style=""color:MediumSeaGreen;background-color:LightGray;""><header><h2><p >" + title + @"</p></h2></header>"
+            string htmltext = @"<html style=""color:DarkGreen;background-color:FloralWhite;""><header><h2><p >" + title + @"</p></h2></header>"
                               + help + @"</html>";
             webBrowser_Right.DocumentText = htmltext;
         }
@@ -519,7 +520,9 @@ namespace GUI15DSATUNSAT
                 default: Set_Help("", ""); break;
             }
         }
+        #endregion
 
+        #region Layers
         private void radioButton_Layers_Topboundbyh_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton_Layers_Topboundbyh.Checked)

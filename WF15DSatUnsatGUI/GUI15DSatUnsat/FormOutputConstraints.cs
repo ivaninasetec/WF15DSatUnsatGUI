@@ -94,7 +94,7 @@ namespace GUI15DSATUNSAT
                     scatterXYControl_Constraints.PlotLines[nline].Label = "v_qvtb";
                     break;
                 case "v_qvt":
-                    scatterXYControl_Constraints.PlotLines[nline].AddRange(OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.T).ToArray(), OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.v_qvtb).ToArray());
+                    scatterXYControl_Constraints.PlotLines[nline].AddRange(OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.T).ToArray(), OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.v_qvt).ToArray());
                     scatterXYControl_Constraints.PlotLines[nline].Label = "v_qvt";
                     break;
                 case "v_qvb":
@@ -140,6 +140,10 @@ namespace GUI15DSATUNSAT
                 case "h_dqhordx_all_mean":
                     scatterXYControl_Constraints.PlotLines[nline].AddRange(OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.T).ToArray(), OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.h_dqhordx_all_mean).ToArray());
                     scatterXYControl_Constraints.PlotLines[nline].Label = "h_dqhordx_all_mean";
+                    break;
+                case "inchnew_mean":
+                    scatterXYControl_Constraints.PlotLines[nline].AddRange(OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.T).ToArray(), OutputConstraintList.Items.Where(x => x.IS == numIS).Where(x => x.IU == numIU).Select(x => x.inchnew_mean).ToArray());
+                    scatterXYControl_Constraints.PlotLines[nline].Label = "inchnew_mean";
                     break;
                 default:
                     break;
