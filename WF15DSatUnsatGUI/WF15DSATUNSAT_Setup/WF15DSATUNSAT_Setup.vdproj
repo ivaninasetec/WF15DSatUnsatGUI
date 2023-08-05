@@ -69,12 +69,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_55DBA51C635953DD9E4055A6C8307F1D"
-        "OwnerKey" = "8:_6410F1ADC465413BBCEEC219432363A6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5D3B6D11091B449D87C1BDF7948E6880"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -129,20 +123,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9C83C89B17FC986B81D077B2920D2B21"
-        "OwnerKey" = "8:_6410F1ADC465413BBCEEC219432363A6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9C83C89B17FC986B81D077B2920D2B21"
-        "OwnerKey" = "8:_55DBA51C635953DD9E4055A6C8307F1D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C1A03BBF922A44B2A164A748D37DA9E3"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CF48C87F4527347C9E82911F68562331"
+        "OwnerKey" = "8:_6410F1ADC465413BBCEEC219432363A6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -213,6 +201,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F748358C7B6537F1C9E7612C1FDDDE81"
+        "OwnerKey" = "8:_6410F1ADC465413BBCEEC219432363A6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F748358C7B6537F1C9E7612C1FDDDE81"
+        "OwnerKey" = "8:_CF48C87F4527347C9E82911F68562331"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6410F1ADC465413BBCEEC219432363A6"
         "MsmSig" = "8:_UNDEFINED"
@@ -226,13 +226,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_55DBA51C635953DD9E4055A6C8307F1D"
+        "OwnerKey" = "8:_CF48C87F4527347C9E82911F68562331"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9C83C89B17FC986B81D077B2920D2B21"
+        "OwnerKey" = "8:_F748358C7B6537F1C9E7612C1FDDDE81"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -545,37 +545,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_55DBA51C635953DD9E4055A6C8307F1D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlowModelLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_55DBA51C635953DD9E4055A6C8307F1D"
-                    {
-                    "Name" = "8:FlowModelLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:FlowModelLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_EEE57D56C6484F59800B12956A6D0539"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_655E482D8CAC4FFBADD0BEDB2565AB5E"
             {
             "SourcePath" = "8:..\\..\\..\\WF15DSatUnsat\\WF15DSatUnsat\\INCLUDE\\x64\\ucrtbase.dll"
@@ -687,37 +656,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9C83C89B17FC986B81D077B2920D2B21"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlowComLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_9C83C89B17FC986B81D077B2920D2B21"
-                    {
-                    "Name" = "8:FlowComLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:FlowComLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_EEE57D56C6484F59800B12956A6D0539"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1A03BBF922A44B2A164A748D37DA9E3"
             {
             "SourcePath" = "8:..\\..\\..\\WF15DSatUnsat\\WF15DSatUnsat\\INCLUDE\\x64\\vcruntime140d.dll"
@@ -736,6 +674,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CF48C87F4527347C9E82911F68562331"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FlowModelLib, Version=1.0.5.0, Culture=neutral, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_CF48C87F4527347C9E82911F68562331"
+                    {
+                    "Name" = "8:FlowModelLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FlowModelLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_EEE57D56C6484F59800B12956A6D0539"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CF7883818E8833AE56FDD53570C92B47"
@@ -824,7 +793,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:GraphControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:GraphControls, Version=1.0.4.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_DC9DCDF86945CA030AF29CAE264A7490"
@@ -942,6 +911,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F748358C7B6537F1C9E7612C1FDDDE81"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FlowComLib, Version=1.0.7.0, Culture=neutral, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_F748358C7B6537F1C9E7612C1FDDDE81"
+                    {
+                    "Name" = "8:FlowComLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FlowComLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_EEE57D56C6484F59800B12956A6D0539"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -1021,16 +1021,16 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WF15DSatUnsat"
-        "ProductCode" = "8:{DE60A148-2FD1-4DD6-94CB-7DB5715D249D}"
-        "PackageCode" = "8:{16B13ABC-EE4D-4EAA-8458-92CC3535EA5F}"
+        "ProductCode" = "8:{021CBF6C-09DB-4078-B06F-1F211C354448}"
+        "PackageCode" = "8:{6EABC923-D7FE-46E9-B91C-87C372DA0D9D}"
         "UpgradeCode" = "8:{9E185535-737E-4DFD-9E4C-F99373AB77B2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.1.16"
-        "Manufacturer" = "8:INASETEC"
+        "ProductVersion" = "8:0.1.18"
+        "Manufacturer" = "8:UoN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:WF15DSatUnsat"
