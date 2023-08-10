@@ -116,7 +116,8 @@ namespace GUI15DSATUNSAT
                     nline = scatterXYControl_SatNodes_Layers.PlotLines.Count;
                     scatterXYControl_SatNodes_Layers.AddLine();
                     scatterXYControl_SatNodes_Layers.PlotLines[nline].MarkerSize = 0;
-                    scatterXYControl_SatNodes_Layers.PlotLines[nline].AddRange(OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.x).ToArray(), OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.head+x.z + zbottom).ToArray());
+                    //scatterXYControl_SatNodes_Layers.PlotLines[nline].AddRange(OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.x).ToArray(), OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.head+x.z + zbottom).ToArray());
+                    scatterXYControl_SatNodes_Layers.PlotLines[nline].AddRange(OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.x).ToArray(), OutputSatNodesList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.head + x.z).ToArray());
                     scatterXYControl_SatNodes_Layers.PlotLines[nline].Label = "T="+ tvalue.ToString()+" IS="+numIS.ToString();
                     break;
                 case "qent":

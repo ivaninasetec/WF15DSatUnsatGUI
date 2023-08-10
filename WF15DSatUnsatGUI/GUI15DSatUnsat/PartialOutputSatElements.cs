@@ -147,8 +147,10 @@ namespace GUI15DSATUNSAT
 
                     for (int i = 0; i < x0.Length; i++) { xtp.Add(x0[i]); xtp.Add(x1[i]); }
 
-                    y0 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h0+x.z0 + zbottom).ToArray();
-                    y1 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h1 + x.z1 + zbottom).ToArray();
+                    //y0 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h0+x.z0 + zbottom).ToArray();
+                    //y1 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h1 + x.z1 + zbottom).ToArray();
+                    y0 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h0 + x.z0).ToArray();
+                    y1 = OutputSatElementsList.Items.Where(x => x.IS == numIS).Where(x => x.T.ToString(timeformat) == tvalue).Select(x => x.h1 + x.z1).ToArray();
                     ytp = new List<double>();
 
                     for (int i = 0; i < y0.Length; i++) { ytp.Add(y0[i]); ytp.Add(y1[i]); }

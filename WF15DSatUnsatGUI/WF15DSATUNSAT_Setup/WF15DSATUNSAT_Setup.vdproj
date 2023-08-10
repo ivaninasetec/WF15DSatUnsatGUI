@@ -680,7 +680,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlowModelLib, Version=1.0.5.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:FlowModelLib, Version=1.0.14.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_CF48C87F4527347C9E82911F68562331"
@@ -793,7 +793,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:GraphControls, Version=1.0.4.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:GraphControls, Version=1.0.13.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_DC9DCDF86945CA030AF29CAE264A7490"
@@ -915,7 +915,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlowComLib, Version=1.0.7.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:FlowComLib, Version=1.0.16.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_F748358C7B6537F1C9E7612C1FDDDE81"
@@ -1021,15 +1021,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WF15DSatUnsat"
-        "ProductCode" = "8:{021CBF6C-09DB-4078-B06F-1F211C354448}"
-        "PackageCode" = "8:{6EABC923-D7FE-46E9-B91C-87C372DA0D9D}"
+        "ProductCode" = "8:{D4B160E6-3C06-4D4D-A8D8-FF1299C102B1}"
+        "PackageCode" = "8:{EDCBC7E2-193B-413C-8AB2-A688A7D232DB}"
         "UpgradeCode" = "8:{9E185535-737E-4DFD-9E4C-F99373AB77B2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.1.18"
+        "ProductVersion" = "8:0.1.20"
         "Manufacturer" = "8:UoN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1045,7 +1045,7 @@
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:\"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\signtool\" sign /v /s My /n \"Juan Campos-Guereta Diez\" /tr http://timestamp.sectigo.com /fd SHA384 /td SHA384 $(BuiltOuputPath)"
+        "PostBuildEvent" = "8:REM \"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64\\signtool\" sign /v /s My /n \"Juan Campos-Guereta Diez\" /tr http://timestamp.sectigo.com /fd SHA384 /td SHA384 $(BuiltOuputPath)"
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -1669,7 +1669,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_965A799C24F04EA1A7D81D9A34A1E258"
             {
-            "SourcePath" = "8:..\\bin\\Release\\x64\\wf15dsatunsat\\wf15dsatunsat.exe"
+            "SourcePath" = "8:..\\bin\\Release\\x64\\wf15dsatunsat.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EEE57D56C6484F59800B12956A6D0539"
